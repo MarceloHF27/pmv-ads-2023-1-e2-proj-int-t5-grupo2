@@ -2,6 +2,8 @@
 
 O Brasil é um país com um alto número de desaparecimentos de pessoas. Segundo dados do Ministério da Justiça e Segurança Pública, em 2020, foram registrados 83.285 casos de pessoas desaparecidas em todo o país. Esse número é alarmante e mostra a importância de se ter um sistema eficiente de cadastro e busca de pessoas desaparecidas. 
 
+Diante disso, acreditamos na necessidade de criar mecanismos em um site na qual o usuário tenha acesso a dados com um conjunto de informações variadas e precisas. Concentraremos a pesquisa por pessoas desaparecidas em uma solução tecnológica online, gerando grandes benefícios de utilidade pública e cumprindo um importante papel social. 
+
 ## Problema 
 
 Nesse contexto, o presente projeto tem como objetivo desenvolver um sistema de cadastro de pessoas desaparecidas no Brasil. A ideia é criar uma plataforma que permita o registro das informações de pessoas desaparecidas, bem como a busca dessas pessoas por meio de filtros como nome, idade, sexo, características físicas, entre outros. 
