@@ -8,15 +8,51 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Carlos Silva 
+<img src="img/carlos.png" width="100px"/>
+
+Idade: 20 
+
+Ocupação: Programador junior e estudante de Engenharia da Computação 
+
+Aplicativos: 
+- Instagram 
+- Twitter 
+- YouTube 
+
+Motivações:
+- Familia 
+- Realização pessoal 
+
+Frustrações:
+- Falta de tempo com sua familia 
+
+Hobbies, História:
+
+- Jogar e ver series
+- Carlos é um rapaz de 20 anos apaixonado por tecnologia, ele está cursando o 5 período de engenharia computacional e trabalha em uma empresa de desenvolvimento de softwares. Carlos vive com seus pais e seu avô em um apartamento no centro de Belo Horizonte onde passa a maior parte de seu tempo livre jogando no computador. 
+
+### Roseni Magalhães 
+<img src="img/roseni.png" width="100px"/>
+
+Idade: 50 
+
+Ocupação: Doméstica 
+
+Aplicativos: 
+- Facebook 
+- Whats App 
+
+Motivações:
+- Seus Filhos 
+- Amor pelo que faz 
+
+Frustrações:
+- não poder dar uma vida melhor para os filhos 
+
+Hobbies, História:
+- Cozinhar e cuidar de sua pequena horta 
+- Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia. 
 
 ## Histórias de Usuários
 
