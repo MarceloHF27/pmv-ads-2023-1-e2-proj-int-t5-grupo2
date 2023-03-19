@@ -54,38 +54,20 @@ Hobbies, História:
 - Cozinhar e cuidar de sua pequena horta 
 - Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia. 
 
-### Sofia Santos
-<img src="img/sofia.png" width="100px"/>
-
-Idade: 32
-
-Ocupação: digital "influencer", começou a cursar Artes Cênicas pela UFMG. Sofia é uma pessoa muito determinada e persistente. Ela não desiste facilmente de seus objetivos e sempre busca maneiras de superar obstáculos. Além disso, ela é muito solidária e empática, sempre colocando as necessidades dos outros em primeiro lugar. 
-
-Aplicativos: 
-- Facebook;
-- Instagram; 
-- Snapchat;
-- Kwaii; 
-- WhatsApp. 
-
-Motivações:
-- A principal motivação de Sofia é ajudar a encontrar pessoas desaparecidas e levar suas famílias a terem um pouco de paz. Ela acredita que, mesmo que não consiga encontrar sua amiga, pode ajudar outras pessoas a terem um final feliz em suas histórias. 
-
-Frustrações:
-- Sofia ainda não conseguiu encontrar sua amiga e isso tem sido uma grande fonte de frustração para ela. Além disso, ela enfrenta constantemente a dificuldade de lidar com pessoas que não levam a causa dos desaparecidos a sério.
-
-Hobbies, História:
-- praticar esportes ao ar livre, como corrida e escalada.
-- Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ana Silva           | O acesso a informações de pessoas desaparecida seja mais simples e menos burocrático.            | Para que seja mais acessível e fácil de se encontrar informações.               |
+|Marcos Oliveira     | Ter acesso a mais informações dos desaparecidos.                | Entender melhor o “caso” e ter maior chance de encontrar essas pessoas.  |
+|Luana Ferreira      | Que as informações estejam corretas e atualizadas.                 | Para que não haja problemas durante as buscas e seus direitos não sejam violados.  |
+|Carlos Gomes        | Fazer comentários em notícias e reportar minha opinião.                | Discutir com grupos de interesse comum. |
+|Sofia Santos        | Compartilhar o caso nas redes sociais em que faço parte.                 | Poder compartilhar com os conhecidos, amigos e colegas o caso alcançando mais pessoas.  |
+|Amanda Alves        | Poder realizar uma pesquisa sobre notícias acerca de um tema específico.                  | Localizar tópicos específicos e conseguir maior objetividade em algumas leituras.  |
+|Felipe Noronha      | Poder Inserir imagens e arquivos.                 | Para auxiliar nas buscas dos entes queridos e facilitar as buscas das pessoas desaparecidas. |
+|Felipe Noronha      | Felipe deseja utilizar um sistema de pessoas desaparecidas para ajudar as famílias a encontrar seus entes queridos desaparecidos de forma mais eficiente e rápida.                   | Para que o sistema pode ser uma ferramenta valiosa para ajudar a salvar vidas, identificar pessoas desaparecidas e trazer paz de espírito às famílias afetadas.  |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
