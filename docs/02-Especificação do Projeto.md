@@ -77,6 +77,30 @@ Frustrações:
 Hobbies, História:
 - praticar esportes ao ar livre, como corrida e escalada.
 - Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
+- - ### Felipe “Yoda” Noronha 
+<img src="![Felipeyoda](https://user-images.githubusercontent.com/111924209/226215279-cc0b58aa-1df2-4637-8041-4dab78d34993.png)"
+width="100px"/>
+
+Idade: 32
+
+Ocupação: Médico residente em um hospital público
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Snapchat;
+- WhatsApp;
+- Linkdin
+- Twitch;
+
+Motivações:
+-Ajudar as pessoas, salvar vidas e fazer a diferença na sociedade
+
+Frustrações:
+- A burocracia e a falta de recursos no sistema de saúde, a falta de tempo para atividades pessoais e sociais.
+
+Hobbies, História:
+- Seu hobby é ser voluntário em uma organização não governamental que busca encontrar pessoas desaparecidas e ajudar suas famílias a encontrá-las. 
+- Sua historia começa que João sempre quis ser médico para ajudar as pessoas. Durante sua residência no hospital público, ele se deparou com muitos casos de desaparecimento de pacientes e percebeu que havia uma lacuna no sistema de busca e resgate de pessoas desaparecidas.
 
 
 ## Histórias de Usuários
