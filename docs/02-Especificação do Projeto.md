@@ -54,30 +54,6 @@ Hobbies, História:
 - Cozinhar e cuidar de sua pequena horta 
 - Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia. 
 
-### Sofia Santos
-<img src="img/sofia.png" width="100px"/>
-
-Idade: 32
-
-Ocupação: digital "influencer", começou a cursar Artes Cênicas pela UFMG. Sofia é uma pessoa muito determinada e persistente. Ela não desiste facilmente de seus objetivos e sempre busca maneiras de superar obstáculos. Além disso, ela é muito solidária e empática, sempre colocando as necessidades dos outros em primeiro lugar. 
-
-Aplicativos: 
-- Facebook;
-- Instagram; 
-- Snapchat;
-- Kwaii; 
-- WhatsApp. 
-
-Motivações:
-- A principal motivação de Sofia é ajudar a encontrar pessoas desaparecidas e levar suas famílias a terem um pouco de paz. Ela acredita que, mesmo que não consiga encontrar sua amiga, pode ajudar outras pessoas a terem um final feliz em suas histórias. 
-
-Frustrações:
-- Sofia ainda não conseguiu encontrar sua amiga e isso tem sido uma grande fonte de frustração para ela. Além disso, ela enfrenta constantemente a dificuldade de lidar com pessoas que não levam a causa dos desaparecidos a sério.
-
-Hobbies, História:
-- praticar esportes ao ar livre, como corrida e escalada.
-- Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -117,8 +93,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |  MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
