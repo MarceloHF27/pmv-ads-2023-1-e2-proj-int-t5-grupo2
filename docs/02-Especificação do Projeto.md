@@ -77,54 +77,6 @@ Frustrações:
 Hobbies, História:
 - praticar esportes ao ar livre, como corrida e escalada.
 - Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
-- - ### Felipe “Yoda” Noronha 
-<img src="![Felipeyoda](https://user-images.githubusercontent.com/111924209/226215279-cc0b58aa-1df2-4637-8041-4dab78d34993.png)"
-width="100px"/>
-
-Idade: 32
-
-Ocupação: Médico residente em um hospital público
-Aplicativos: 
-- Facebook;
-- Instagram; 
-- Snapchat;
-- WhatsApp;
-- Linkdin
-- Twitch;
-
-Motivações:
--Ajudar as pessoas, salvar vidas e fazer a diferença na sociedade
-
-Frustrações:
-- A burocracia e a falta de recursos no sistema de saúde, a falta de tempo para atividades pessoais e sociais.
-
-Hobbies, História:
-- Seu hobby é ser voluntário em uma organização não governamental que busca encontrar pessoas desaparecidas e ajudar suas famílias a encontrá-las. 
-- Sua historia começa que João sempre quis ser médico para ajudar as pessoas. Durante sua residência no hospital público, ele se deparou com muitos casos de desaparecimento de pacientes e percebeu que havia uma lacuna no sistema de busca e resgate de pessoas desaparecidas.
-- ### Luana Ferreira
-
-Idade: 27
-
-Ocupação: Estudante de direito 
-
-Aplicativos: 
-- Facebook;
-- Instagram; 
-- Aplicativos de Banco;
-- Kwaii; 
-- WhatsApp. 
-
-Motivações:
-- A principal motivação de Sofia é ajudar a encontrar pessoas desaparecidas e levar suas famílias a terem um pouco de paz. Ela acredita que, mesmo que não consiga encontrar sua amiga, pode ajudar outras pessoas a terem um final feliz em suas histórias. 
-
-Frustrações:
-- Sofia ainda não conseguiu encontrar sua amiga e isso tem sido uma grande fonte de frustração para ela. Além disso, ela enfrenta constantemente a dificuldade de lidar com pessoas que não levam a causa dos desaparecidos a sério.
-
-Hobbies, História:
-- praticar esportes ao ar livre, como corrida e escalada.
-- Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
-
-
 
 
 ## Histórias de Usuários
@@ -136,11 +88,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana Silva           | O acesso a informações de pessoas desaparecida seja mais simples e menos burocrático.            | Para que seja mais acessível e fácil de se encontrar informações.               |
 |Marcos Oliveira     | Ter acesso a mais informações dos desaparecidos.                | Entender melhor o “caso” e ter maior chance de encontrar essas pessoas.  |
 |Luana Ferreira      | Que as informações estejam corretas e atualizadas.                 | Para que não haja problemas durante as buscas e seus direitos não sejam violados.  |
-|Carlos Gomes        | Fazer comentários em notícias e reportar minha opinião.                | Discutir com grupos de interesse comum. |
+|Carlos Silva        | O sistema deve conter os números de emergência para o usuário entrar em contato caso tenha informações.                | Para que possa auxiliar e reportar informações sobre o desaparecido.  |
+|Carlos Silva        |  Compartilhar as informações do desaparecido dentro do site para todos poderem visualizar.                       |    Para que várias pessoas possam informar caso o veja ou tenha informações.                    |
 |Sofia Santos        | Compartilhar o caso nas redes sociais em que faço parte.                 | Poder compartilhar com os conhecidos, amigos e colegas o caso alcançando mais pessoas.  |
-|Amanda Alves        | Poder realizar uma pesquisa sobre notícias acerca de um tema específico.                  | Localizar tópicos específicos e conseguir maior objetividade em algumas leituras.  |
 |Felipe Noronha      | Poder Inserir imagens e arquivos.                 | Para auxiliar nas buscas dos entes queridos e facilitar as buscas das pessoas desaparecidas. |
 |Felipe Noronha      | Felipe deseja utilizar um sistema de pessoas desaparecidas para ajudar as famílias a encontrar seus entes queridos desaparecidos de forma mais eficiente e rápida.                   | Para que o sistema pode ser uma ferramenta valiosa para ajudar a salvar vidas, identificar pessoas desaparecidas e trazer paz de espírito às famílias afetadas.  |
+|Roseni Magalhães    | Acessar o cadastro através de um smartphone.            |  Por ela ter mais familiaridade com o celular do que com o PC.                |     
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -157,37 +110,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
-
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID                           Descrição                                                                                                      |  Prioridade         |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-01          |     O site deve ser simples e acessível                                                                                     |    Média            |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-02          |     O site deve conter todas as informações dodesaparecido e estar sempre atualizado dentro do possível                     |    Alta             |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-03          |     O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação              |    Média            |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-04          |     O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).        |    Média            |
-| --------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-05          |     O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que   |    Alta             |
-|               |      será informado na caixa de pesquisa.7,5                                                                                |                     |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-06          |     O site deve permitir visualizar as informações de contatos do mantenedor do site                                        |    Média            |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-07          |     O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais                        |    Baixa            |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-08          |     O site deve permitir salvar notícias preferidas                                                                         |    Baixa            |
-| --------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-|RF-09          |     O site deve permitir verificar as notícias salvas como preferidas                                                       |    Baixa            |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-| RF-10         |      O site deve permitir que usuários possam comentar notícias                                                             |     Baixa           |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-| RF-11         |      O site deve permitir que o usuário possa anexar imagens e arquivos                                                     |     Alta            |
-----------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
-
- 
-
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| O site deve ser simples e acessível  | MÉDIA | 
+|RF-002| O site deve conter todas as informações do desaparecido e estar sempre atualizado dentro do possível   | ALTA |
+|RF-003| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação    | MÉDIA |
+|RF-004| O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources)    | MÉDIA |
+|RF-005| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa   | ALTA |
+|RF-006| O site deve permitir visualizar as informações de contatos do mantenedor do site    | MÉDIA |
+|RF-007| O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais    | BAIXA |
+|RF-008| O site deve permitir salvar notícias preferidas    | BAIXA |
+|RF-009| O site deve permitir verificar as notícias salvas como preferidas    | BAIXA |
+|RF-0010| O site deve permitir que usuários possam comentar notícias    | BAIXA |
+|RF-0011| O site deve permitir que o usuário possa anexar imagens e arquivos    | ALTA |
 
 ### Requisitos não Funcionais
 
