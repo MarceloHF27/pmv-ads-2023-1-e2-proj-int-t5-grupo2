@@ -1,46 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O Brasil é um país com um alto número de desaparecimentos de pessoas. Segundo dados do Ministério da Justiça e Segurança Pública, em 2020, foram registrados 83.285 casos de pessoas desaparecidas em todo o país. Esse número é alarmante e mostra a importância de se ter um sistema eficiente de cadastro e busca de pessoas desaparecidas. 
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Diante disso, acreditamos na necessidade de criar mecanismos em um site na qual o usuário tenha acesso a dados com um conjunto de informações variadas e precisas. Concentraremos a pesquisa por pessoas desaparecidas em uma solução tecnológica online, gerando grandes benefícios de utilidade pública e cumprindo um importante papel social. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+## Problema 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Nesse contexto, o presente projeto tem como objetivo desenvolver um sistema de cadastro de pessoas desaparecidas no Brasil. A ideia é criar uma plataforma que permita o registro das informações de pessoas desaparecidas, bem como a busca dessas pessoas por meio de filtros como nome, idade, sexo, características físicas, entre outros. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## Objetivos 
 
-## Objetivos
+O projeto busca, assim, contribuir para a solução de um problema social grave e amplamente presente no país, buscando dar suporte às famílias que sofrem com a falta de notícias de seus entes queridos e colaborar com as autoridades na investigação desses casos. 
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Como objetivos específicos, podemos ressaltar:  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+-	Fornecer ferramentas necessárias para o cadastro do desaparecido. 
+
+-	Garantir a veracidade das informações junto às autoridades competentes. 
+
+- 	Permitir a divulgação do cadastro do desaparecido à fim de uma visibilidade maior. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com o Ministério da Justiça e Segurança Pública, o número de pessoas desaparecidas no Brasil vem aumentando ano após ano. Em 2020, foram registrados 83.285 casos de pessoas desaparecidas no país. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, segundo dados do Fórum Brasileiro de Segurança Pública, o Brasil possui a maior taxa de desaparecimento de crianças e adolescentes na América Latina. Entre 2011 e 2020, foram registrados mais de 500 mil desaparecimentos de crianças e adolescentes no país. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Os dados também mostram que a maioria das pessoas desaparecidas no Brasil são jovens entre 15 e 29 anos de idade, sendo que a maioria são homens. Além disso, as regiões com maior número de casos de pessoas desaparecidas são a região Sudeste e a região Nordeste. 
 
+Essas estatísticas evidenciam a gravidade do problema dos desaparecimentos no Brasil e a importância de se ter um sistema eficiente de cadastro e busca de pessoas desaparecidas. 
+
+ 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O sistema terá como público-alvo as famílias das pessoas desaparecidas, bem como as autoridades responsáveis pela investigação desses casos. A plataforma também será uma ferramenta importante para a conscientização da sociedade sobre a gravidade do problema e a importância de se engajar na busca por essas pessoas. 

@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# SISTEMA DESAPARECIDOS
 
-`CURSO`
+`Tecnologia em análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma aplicação interativa`
 
-`SEMESTRE`
+`2º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto SISTEMA DESAPARECIDOS está sendo desenvolvido com o propósito de contribuir para a solução de um problema social grave e amplamente presente no país, pessoas desaparecidas. O sistema criado auxiliará as famílias e/ou organizações a divulgarem e buscarem na nossa base de dados informações sobre pessoas desaparecidas, coloborando também com as autoridades responsáveis pela investigação dos casos de desaparecidos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Carlos Jose Leao Freitas
+* Gustavo Epifânio Silva
+* Leonardo Araujo De Souza
+* Marcelo Henrique Ferreira
+* Remilton Pereira Da Silva Junior
+* Samuel Felismino Ribeiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon De Alencar
 
 ## Instruções de utilização
 

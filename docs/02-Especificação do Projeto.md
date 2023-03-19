@@ -2,25 +2,183 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+### Marcos Oliveira
+<img src="img/marcos.png" width="100px"/>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Idade: 32
+
+Ocupação: Detetive Particular 
+
+Aplicativos: 
+- 4Chan
+- ChatGPT 
+- Twitter
+
+Motivações:
+- Ele tem uma grande paixão por desvendar mistérios e casos complicados, e acredita que todas as pessoas merecem justiça e o direito de serem encontradas. 
+
+Frustrações:
+- Falta de recursos e informações precisas para encontrar pessoas desaparecidas. 
+- Falta de colaboração das autoridades em alguns casos
+
+Hobbies, História:
+
+- Leitor de mistérios e romances policiais. 
+- Jogar xadrez. 
+- Assistir a documentários sobre crimes e investigações policiais. 
+- Marcos sempre foi fascinado por mistérios e investigações. Ele trabalhou como policial por muitos anos antes de se tornar um detetive particular. Desde então, ele se dedica a ajudar a encontrar pessoas desaparecidas e a desvendar casos complicados.
+
+
+### Carlos Silva 
+<img src="img/carlos.png" width="100px"/>
+
+Idade: 20 
+
+Ocupação: Programador junior e estudante de Engenharia da Computação 
+
+Aplicativos: 
+- Instagram 
+- Twitter 
+- YouTube 
+
+Motivações:
+- Familia 
+- Realização pessoal 
+
+Frustrações:
+- Falta de tempo com sua familia 
+
+Hobbies, História:
+
+- Jogar e ver series
+- Carlos é um rapaz de 20 anos apaixonado por tecnologia, ele está cursando o 5 período de engenharia computacional e trabalha em uma empresa de desenvolvimento de softwares. Carlos vive com seus pais e seu avô em um apartamento no centro de Belo Horizonte onde passa a maior parte de seu tempo livre jogando no computador. 
+
+### Roseni Magalhães 
+<img src="img/roseni.png" width="100px"/>
+
+Idade: 50 
+
+Ocupação: Doméstica 
+
+Aplicativos: 
+- Facebook 
+- Whats App 
+
+Motivações:
+- Seus Filhos 
+- Amor pelo que faz 
+
+Frustrações:
+- não poder dar uma vida melhor para os filhos 
+
+Hobbies, História:
+- Cozinhar e cuidar de sua pequena horta 
+- Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia.
+
+### Ana Silva 
+<img src="img/ana.png" width="100px"/>
+
+Idade: 50 
+
+Ocupação: Analista de Sistemas.  
+
+Aplicativos: 
+- Facebook 
+- Linkedin
+- Stack Overflow
+
+Motivações:
+- Encontrar pessoas desaparecidas e ajudar a resolver casos de pessoas que estão em situações difíceis. 
+
+Frustrações:
+- Ana se sente frustrada com a falta de informações e recursos disponíveis para encontrar pessoas desaparecidas. 
+- Ela também fica abalada emocionalmente quando não consegue encontrar alguém que está desaparecido.
+
+Hobbies, História:
+- Ana adora ler sobre casos de pessoas desaparecidas e acompanhar notícias sobre investigações. 
+- Ela também é uma corretora. 
+- Pratica exercícios físicos regularmente para aliviar o estresse do trabalho. 
+- Ana é uma pessoa muito solidária e quer fazer a diferença na vida das pessoas. 
+
+
+### Sofia Santos
+<img src="img/sofia.png" width="100px"/>
+
+Idade: 32
+
+Ocupação: digital "influencer", começou a cursar Artes Cênicas pela UFMG. Sofia é uma pessoa muito determinada e persistente. Ela não desiste facilmente de seus objetivos e sempre busca maneiras de superar obstáculos. Além disso, ela é muito solidária e empática, sempre colocando as necessidades dos outros em primeiro lugar. 
+
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Snapchat;
+- Kwaii; 
+- WhatsApp. 
+
+Motivações:
+- A principal motivação de Sofia é ajudar a encontrar pessoas desaparecidas e levar suas famílias a terem um pouco de paz. Ela acredita que, mesmo que não consiga encontrar sua amiga, pode ajudar outras pessoas a terem um final feliz em suas histórias. 
+
+Frustrações:
+- Sofia ainda não conseguiu encontrar sua amiga e isso tem sido uma grande fonte de frustração para ela. Além disso, ela enfrenta constantemente a dificuldade de lidar com pessoas que não levam a causa dos desaparecidos a sério.
+
+Hobbies, História:
+- praticar esportes ao ar livre, como corrida e escalada.
+- Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
+- ### Luana Ferreira
+- <img src="img/luana.png" width="100px"/>
+
+Idade: 27
+
+Ocupação: Estudante de direito 
+
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Aplicativos de Banco; 
+- WhatsApp. 
+- Linkdin
+
+Motivações:
+- Luana está estudando Direito e tem um forte desejo de ajudar a proteger os direitos das pessoas que estão desaparecidas. 
+- Ela acredita que todos têm o direito de serem encontrados e de receberem justiça.
+
+Frustrações:
+- Não conseguir ajudar alguém que está sendo injustiçado. 
+
+Hobbies, História:
+- Luana gosta muito de ler livros sobre direitos humanos e questões sociais, além de adorar assistir documentários e filmes que abordam esses temas. Ela também é apaixonada por música e toca violão nas horas vagas.
+-Luana é uma estudante de direito que, desde criança, sempre teve uma grande vontade de ajudar as pessoas. Ela vem de uma família humilde e sempre enfrentou dificuldades financeiras, mas isso nunca a impediu de perseguir seus sonhos. Em seu tempo livre, ela trabalha em um abrigo para crianças carentes e luta para garantir seus direitos.
+
+- ### Felipe “Yoda” Noronha 
+- <img src="img/felipe.png" width="100px"/>
+
+Idade: 32
+
+Ocupação: Médico residente em um hospital público.
+
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Twitch; 
+- WhatsApp;
+- Linkdin;
+
+Motivações:
+- Ajudar as pessoas, salvar vidas e fazer a diferença na sociedade
+
+Frustrações:
+- A burocracia e a falta de recursos no sistema de saúde, a falta de tempo para atividades pessoais e sociais 
+
+Hobbies, História:
+- Seu hobby é ser voluntário em uma organização não governamental que busca encontrar pessoas desaparecidas e ajudar suas famílias a encontrá-las.
+-Sua historia começa que João sempre quis ser médico para ajudar as pessoas. Durante sua residência no hospital público, ele se deparou com muitos casos de desaparecimento de pacientes e percebeu que havia uma lacuna no sistema de busca e resgate de pessoas desaparecidas. 
+
 
 ## Histórias de Usuários
 
@@ -28,8 +186,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ana Silva           | O acesso a informações de pessoas desaparecida seja mais simples e menos burocrático.            | Para que seja mais acessível e fácil de se encontrar informações.               |
+|Marcos Oliveira     | Ter acesso a mais informações dos desaparecidos.                | Entender melhor o “caso” e ter maior chance de encontrar essas pessoas.  |
+|Luana Ferreira      | Que as informações estejam corretas e atualizadas.                 | Para que não haja problemas durante as buscas e seus direitos não sejam violados.  |
+|Carlos Silva        | O sistema deve conter os números de emergência para o usuário entrar em contato caso tenha informações.                | Para que possa auxiliar e reportar informações sobre o desaparecido.  |
+|Carlos Silva        |  Compartilhar as informações do desaparecido dentro do site para todos poderem visualizar.                       |    Para que várias pessoas possam informar caso o veja ou tenha informações.                    |
+|Sofia Santos        | Compartilhar o caso nas redes sociais em que faço parte.                 | Poder compartilhar com os conhecidos, amigos e colegas o caso alcançando mais pessoas.  |
+|Felipe Noronha      | Poder Inserir imagens e arquivos.                 | Para auxiliar nas buscas dos entes queridos e facilitar as buscas das pessoas desaparecidas. |
+|Felipe Noronha      | Felipe deseja utilizar um sistema de pessoas desaparecidas para ajudar as famílias a encontrar seus entes queridos desaparecidos de forma mais eficiente e rápida.                   | Para que o sistema pode ser uma ferramenta valiosa para ajudar a salvar vidas, identificar pessoas desaparecidas e trazer paz de espírito às famílias afetadas.  |
+|Roseni Magalhães    | Acessar o cadastro através de um smartphone.            |  Por ela ter mais familiaridade com o celular do que com o PC.                |     
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -48,15 +213,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve ser simples e acessível  | MÉDIA | 
+|RF-002| O site deve conter todas as informações do desaparecido e estar sempre atualizado dentro do possível   | ALTA |
+|RF-003| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação    | MÉDIA |
+|RF-004| O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources)    | MÉDIA |
+|RF-005| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa   | ALTA |
+|RF-006| O site deve permitir visualizar as informações de contatos do mantenedor do site    | MÉDIA |
+|RF-007| O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais    | BAIXA |
+|RF-008| O site deve permitir salvar notícias preferidas    | BAIXA |
+|RF-009| O site deve permitir verificar as notícias salvas como preferidas    | BAIXA |
+|RF-0010| O site deve permitir que usuários possam comentar notícias    | BAIXA |
+|RF-0011| O site deve permitir que o usuário possa anexar imagens e arquivos    | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |  MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -79,8 +255,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 18/06/2023 |
+|02| O aplicativo deve ser realizado com tecnologias Front e Back-end        |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
