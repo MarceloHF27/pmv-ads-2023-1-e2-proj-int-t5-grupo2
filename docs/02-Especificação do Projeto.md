@@ -77,6 +77,52 @@ Frustrações:
 Hobbies, História:
 - praticar esportes ao ar livre, como corrida e escalada.
 - Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
+- ### Luana Ferreira
+
+Idade: 27
+
+Ocupação: Estudante de direito 
+
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Aplicativos de Banco; 
+- WhatsApp. 
+- Linkdin
+
+Motivações:
+- Luana está estudando Direito e tem um forte desejo de ajudar a proteger os direitos das pessoas que estão desaparecidas. 
+- Ela acredita que todos têm o direito de serem encontrados e de receberem justiça.
+
+Frustrações:
+- Não conseguir ajudar alguém que está sendo injustiçado. 
+
+Hobbies, História:
+- Luana gosta muito de ler livros sobre direitos humanos e questões sociais, além de adorar assistir documentários e filmes que abordam esses temas. Ela também é apaixonada por música e toca violão nas horas vagas.
+-Luana é uma estudante de direito que, desde criança, sempre teve uma grande vontade de ajudar as pessoas. Ela vem de uma família humilde e sempre enfrentou dificuldades financeiras, mas isso nunca a impediu de perseguir seus sonhos. Em seu tempo livre, ela trabalha em um abrigo para crianças carentes e luta para garantir seus direitos.
+
+- ### Felipe “Yoda” Noronha 
+
+Idade: 32
+
+Ocupação: Médico residente em um hospital público.
+
+Aplicativos: 
+- Facebook;
+- Instagram; 
+- Twitch; 
+- WhatsApp;
+- Linkdin;
+
+Motivações:
+- Ajudar as pessoas, salvar vidas e fazer a diferença na sociedade
+
+Frustrações:
+- A burocracia e a falta de recursos no sistema de saúde, a falta de tempo para atividades pessoais e sociais 
+
+Hobbies, História:
+- Seu hobby é ser voluntário em uma organização não governamental que busca encontrar pessoas desaparecidas e ajudar suas famílias a encontrá-las.
+-Sua historia começa que João sempre quis ser médico para ajudar as pessoas. Durante sua residência no hospital público, ele se deparou com muitos casos de desaparecimento de pacientes e percebeu que havia uma lacuna no sistema de busca e resgate de pessoas desaparecidas. 
 
 
 ## Histórias de Usuários
