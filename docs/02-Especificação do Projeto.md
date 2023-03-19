@@ -52,7 +52,33 @@ Frustrações:
 
 Hobbies, História:
 - Cozinhar e cuidar de sua pequena horta 
-- Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia. 
+- Roseni é uma senhora de 58 que mora no interior de Minas Gerais com sua família, ela é esposa do João e mãe de 3 filhos jovens, entre seus 17 e 23 anos. Roseni trabalha como doméstica cuidando da casa enquanto seu marido trabalha em uma fazenda de café e devido sua condição mais humilde não tem muito contato com a tecnologia.
+
+### Ana Silva 
+<img src="img/ana.png" width="100px"/>
+
+Idade: 50 
+
+Ocupação: Analista de Sistemas.  
+
+Aplicativos: 
+- Facebook 
+- Linkedin
+- Stack Overflow
+
+Motivações:
+- Encontrar pessoas desaparecidas e ajudar a resolver casos de pessoas que estão em situações difíceis. 
+
+Frustrações:
+- Ana se sente frustrada com a falta de informações e recursos disponíveis para encontrar pessoas desaparecidas. 
+- Ela também fica abalada emocionalmente quando não consegue encontrar alguém que está desaparecido.
+
+Hobbies, História:
+- Ana adora ler sobre casos de pessoas desaparecidas e acompanhar notícias sobre investigações. 
+- Ela também é uma corretora. 
+- Pratica exercícios físicos regularmente para aliviar o estresse do trabalho. 
+- Ana é uma pessoa muito solidária e quer fazer a diferença na vida das pessoas. 
+
 
 ### Sofia Santos
 <img src="img/sofia.png" width="100px"/>
