@@ -78,6 +78,7 @@ Hobbies, História:
 - praticar esportes ao ar livre, como corrida e escalada.
 - Sofia é uma influenciadora digital que se destaca pelo seu estilo de vida saudável e dicas de moda e beleza. Ela é muito popular nas redes sociais, tendo mais de 500 mil seguidores no Instagram. No entanto, sua vida mudou completamente quando sua melhor amiga desapareceu sem deixar pistas. 
 - ### Luana Ferreira
+- <img src="img/luana.png" width="100px"/>
 
 Idade: 27
 
@@ -102,6 +103,7 @@ Hobbies, História:
 -Luana é uma estudante de direito que, desde criança, sempre teve uma grande vontade de ajudar as pessoas. Ela vem de uma família humilde e sempre enfrentou dificuldades financeiras, mas isso nunca a impediu de perseguir seus sonhos. Em seu tempo livre, ela trabalha em um abrigo para crianças carentes e luta para garantir seus direitos.
 
 - ### Felipe “Yoda” Noronha 
+- <img src="img/felipe.png" width="100px"/>
 
 Idade: 32
 
