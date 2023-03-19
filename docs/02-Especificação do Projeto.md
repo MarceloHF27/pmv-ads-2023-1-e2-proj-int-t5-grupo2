@@ -109,10 +109,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
+
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID                           Descrição                                                                                                      |  Prioridade         |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-01          |     O site deve ser simples e acessível                                                                                     |    Média            |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-02          |     O site deve conter todas as informações dodesaparecido e estar sempre atualizado dentro do possível                     |    Alta             |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-03          |     O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação              |    Média            |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-04          |     O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).        |    Média            |
+| --------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-05          |     O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que   |    Alta             |
+|               |      será informado na caixa de pesquisa.7,5                                                                                |                     |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-06          |     O site deve permitir visualizar as informações de contatos do mantenedor do site                                        |    Média            |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-07          |     O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais                        |    Baixa            |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-08          |     O site deve permitir salvar notícias preferidas                                                                         |    Baixa            |
+| --------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+|RF-09          |     O site deve permitir verificar as notícias salvas como preferidas                                                       |    Baixa            |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+| RF-10         |      O site deve permitir que usuários possam comentar notícias                                                             |     Baixa           |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+| RF-11         |      O site deve permitir que o usuário possa anexar imagens e arquivos                                                     |     Alta            |
+----------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------|
+
+ 
+
 
 ### Requisitos não Funcionais
 
