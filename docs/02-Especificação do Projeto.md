@@ -6,7 +6,34 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem. 
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+
+### Marcos Oliveira
+<img src="img/marcos.png" width="100px"/>
+
+Idade: 32
+
+Ocupação: Detetive Particular 
+
+Aplicativos: 
+- 4Chan
+- ChatGPT 
+- Twitter
+
+Motivações:
+- Ele tem uma grande paixão por desvendar mistérios e casos complicados, e acredita que todas as pessoas merecem justiça e o direito de serem encontradas. 
+
+Frustrações:
+- Falta de recursos e informações precisas para encontrar pessoas desaparecidas. 
+- Falta de colaboração das autoridades em alguns casos
+
+Hobbies, História:
+
+- Leitor de mistérios e romances policiais. 
+- Jogar xadrez. 
+- Assistir a documentários sobre crimes e investigações policiais. 
+- Marcos sempre foi fascinado por mistérios e investigações. Ele trabalhou como policial por muitos anos antes de se tornar um detetive particular. Desde então, ele se dedica a ajudar a encontrar pessoas desaparecidas e a desvendar casos complicados.
+
 
 ### Carlos Silva 
 <img src="img/carlos.png" width="100px"/>
