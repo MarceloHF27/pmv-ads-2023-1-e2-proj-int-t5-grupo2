@@ -92,7 +92,7 @@ Integrantes equipe dev: Carlos, Gustavo, Leonardo, Marcelo, Remilton e Samuel
 - Responsável: Equipe Dev
 - Recursos: HTML, CSS, JavaScript
 
-4.2 - Funcionalidades Críticas (10 dias)
+4.2 - Funcionalidades não Críticas (10 dias)
 - Responsável: Equipe Dev
 - Recursos: HTML, CSS, JavaScript, C#
 
