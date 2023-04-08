@@ -1,15 +1,36 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+1 Objetivos
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+-  Detectar problemas de interface;
+-  Verificar a acessiblidade do Site;
+-  Avaliar a satisfação do úsuario;
+-  Validar o software se o usúario consegue  ter informações atualizadas dos desaparecidos.
+-  Verificar a experiencia geral do úsuario durante o teste.
+-  Verificar a atualização de Post
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+2.Participantes:
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Recomenda-se convidar pessoas que têm experiência com a busca de pessoas desaparecidas, familiares e amigos de pessoas desaparecidas, bem como pessoas sem experiência nessa área .Com tudo isso imaginamos que conseguiremos diversificar muito nossos usúarios e teremos um feedback melhor.
+
+3 Tarefas do teste:
+Pediremos para os participantes realizaram as seguintes tarefas:
+
+-  Tentar buscar e encontrar alguma pessoas fictícia utilizandos dos filtros disponíveis 
+-  Registrar uma pessoa desaparecida usando o formulário fornecido.
+-  Encontrar informações de contato para relatar informações sobre uma pessoa desaparecida. 
+-  Tentar anexas uma imagem ao Post.
+-  Tentar comentar no post de desaparecido.
+
+4 Métricas de sucesso:
+As métricas de sucesso  serão o tempo que leva para os participantes completarem as tarefas e o númerode que erros que eles cometeram durante o teste e também coletar o feedback dos participantes sobre a facilidade de uso do site 
+
+5 Métodos de coleta de dados:
+Serão utilizados os seguintes métodos para coletar dados durante o teste de usabilidade:
+-  Observação direta dos participantes durante a realização das tarefas.
+-  Registro das respostas dos participantes aos questionários pós-teste.
+-  Análise dos dados coletados durante o teste para identificar padrões e tendências.
+
+ 6 Análise dos resultados:
+Os resultados serão analisados para identificar os problemas de usabilidade mais comuns, avaliar a facilidade de uso do site e fornecer feedback sobre como melhorar a experiência do usuário. As recomendações serão apresentadas em um relatório de teste de usabilidade detalhado.
