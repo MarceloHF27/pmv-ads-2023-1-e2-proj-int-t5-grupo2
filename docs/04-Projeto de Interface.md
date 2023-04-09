@@ -34,10 +34,11 @@ Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:<br>
 <img src = "img/esboco.png" height = "200">
 
 ### Tela - Home-Page
-A tela de home-page apresenta as opções para cadastro ou login de usuário como cadastro do desaparecido e opção de filtros, dentre as principais funções podemos citar:<br>
-● Componente de pesquisa que permite encontrar um cadastro de daparecido com mais facilidade;<br>
+A tela de home-page apresenta as opções para cadastro ou login de usuário como cadastro do desaparecido e a opção de filtros, dentre as principais funções podemos citar:<br>
+● Componente de pesquisa que permite encontrar o cadastro do daparecido com mais facilidade;<br>
 ● Componente de cadastro e login para que possa ser identificado e organizado o cadastro do desaparecido;<br>
 ● Componente de conteudo onde fica o cadastro dos desaparecidos de acordo com a data e hora cadastrados.
+
 <img src = "img/home-page.png" height = "200">
 
 ### Tela - Cadastro
@@ -51,7 +52,7 @@ Assim que o usuário realizar o cadastro ele poderá logar e ter acesso as funci
 <img src = "img/login.png" height = "200">
 
 ### Tela - Cadastro Desaparecido
-A tela de cadastro de desaparecido é fundamental, pois com ela o usuário vai inserir as informações do seu ente querido como a data, hora, dia, visto por último, última vestimental, último local, dentre outras informações para ajudar na busca.
+A tela de cadastro de desaparecido é fundamental, pois com ela o usuário vai inserir as informações do seu ente querido como a data, hora, dia, visto por último, último local visto, dentre outras informações para ajudar na busca.
 
 <img src = "img/cadastrar-desaparecido.png" height = "200">
 
@@ -61,7 +62,7 @@ A tela de resultados de buscas foi criada para que o usuário possa encontrar co
 <img src = "img/resultados-de-busca.png" height = "200">
 
 ### Tela - Preucações
-A tela obtém informações de preucações para ajudar as pessoas de desaparecerem por motivos que podem ser evitados.
+A tela obtém informações de preucações para ajudar as pessoas que desapareceram por motivos que podem ser evitados.
 
 <img src = "img/precauçoes.png" height = "200">
 
