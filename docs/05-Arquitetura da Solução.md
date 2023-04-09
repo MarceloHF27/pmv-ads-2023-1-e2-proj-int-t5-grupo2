@@ -12,7 +12,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Modelo ER (Projeto Conceitual)
 
-<img src = "img/DiagramaER.png" height = "200">
+<img src = "img/DiagramaENRE.png" height = "200">
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
@@ -23,6 +23,8 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
+
+<img src = "img/DiagramaER.png" height = "200">
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
