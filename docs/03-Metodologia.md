@@ -11,6 +11,10 @@ Para gestão do código fonte, utilizamos o Git com o GitHub para versionamento 
 
 Em relação à gestão de times, utilizamos uma abordagem baseada em Scrum, com adaptações temos sprints semanais e retrospectivas para avaliar e melhorar continuamente o processo de desenvolvimento. Para comunicação e colaboração, utilizamos ferramentas como o whatApp e o microsoft teams para videoconferências e chats em tempo real.
 
+## Plano de Sprint
+
+[Plano de sprints](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo2/blob/feature/doc/src/Plano%20de%20sprints.md)
+
 ## Ambiente de trabalho
 
 |    **Ambiente** 	|   **Plataforma** 	|    **Link de Acesso** 	|
