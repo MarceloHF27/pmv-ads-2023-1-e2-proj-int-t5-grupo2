@@ -22,7 +22,48 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Wireframe Interativo
+Conforme o diagrama de fluxo do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe
+interativo, acesse o ambiente MarvelApp do projeto.
+As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X.
+Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:<br>
+● Cabeçalho/menu - local onde são dispostos elementos fixos de identidade (logo), opção de cadastrar e opção de logar. No menu temos a opção de cadastrar um desaparecido e opção de filtrar um desaparecido por nome e cidade.<br>
+● Conteúdo - apresenta o conteúdo com os últimos desaparecidos cadastrados;<br>
+● Rodapé - direitos autorais, copyright.
+
+<img src = "img/esboco.png" height = "200">
+
+### Tela - Home-Page
+A tela de home-page apresenta as opções para cadastro ou login de usuário como cadastro do desaparecido e opção de filtros, dentre as principais funções podemos citar:<br>
+● Componente de pesquisa que permite encontrar um cadastro de daparecido com mais facilidade;<br>
+● Componente de cadastro e login para que possa ser identificado e organizado o cadastro do desaparecido;<br>
+● Componente de conteudo onde fica o cadastro dos desaparecidos de acordo com a data e hora cadastrados.
+<img src = "img/home-page.png" height = "200">
+
+### Tela - Cadastro
+A tela de cadastro foi criada para que o usuário que deseja cadastrar um desaparecido possa ter um perfil além de filtar para que não seja realizado cadastros sem infrormações corretas.
+
+<img src = "img/cadastro.png" height = "200">
+
+### Tela -  Login
+Assim que o usuário realizar o cadastro ele poderá logar e ter acesso as funcionalidades do nosso site e poderá cadastrar um ente querido ou amigo que desapareceu.
+
+<img src = "img/login.png" height = "200">
+
+### Tela - Cadastro Desaparecido
+A tela de cadastro de desaparecido é fundamental, pois com ela o usuário vai inserir as informações do seu ente querido como a data, hora, dia, visto por último, última vestimental, último local, dentre outras informações para ajudar na busca.
+
+<img src = "img/cadastrar-desaparecido.png" height = "200">
+
+### Tela - Resutados de Buscas
+A tela de resultados de buscas foi criada para que o usuário possa encontrar com base no filtro o usuário que ela cadastrou com mais facilidade.
+
+<img src = "img/resultados-de-busca.png" height = "200">
+
+### Tela - Preucações
+A tela obtém informações de preucações para ajudar as pessoas de desaparecerem por motivos que podem ser evitados.
+
+<img src = "img/precauçoes.png" height = "200">
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
