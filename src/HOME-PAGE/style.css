@@ -114,6 +114,12 @@
     border-radius: 4px;
     cursor: pointer;    
   }
+
+  .logins a{
+    text-decoration: none;
+    color: white;
+  }
+
   .linha {
     width: 25px;
     height: 3px;

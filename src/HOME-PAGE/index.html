@@ -10,7 +10,7 @@
 <body>
   <header class="cabecalho">
     <div class="container">
-      <img src="../IMG/logo.png" alt="Logo" class="logo">
+      <img src="../IMG/logo.jpg" alt="Logo" class="logo">
       <div class="titulo">
         <h1>Pessoas Desaparecidas</h1>
       </div>
@@ -20,8 +20,8 @@
         <span class="icon"></span>
       </div>
       <div class="logins">
-        <button class="cadastro">CADASTRAR</button>
-        <button class="login">LOGIN</button> 
+        <button class="cadastro"><a href="../CADASTRE-SE/index.html">CADASTRAR</a></button>
+        <button class="login"><a href="../LOGIN/index.html">LOGIN</a></button> 
       </div>
       <nav class="opcao">
         <div class="menu-hamburguer">
@@ -41,8 +41,8 @@
   <main>
     <section class="escolher">
       <div class="container">
-        <button class="opcao">CADASTRAR DESAPARECIDO</button>
-        <button class="opcao">PRECAUÇÕES</button>
+        <button class="opcao" onclick="cadastrar()">CADASTRAR DESAPARECIDO</button>
+        <button class="opcao" onclick="precaucoes()">PRECAUÇÕES</button>
         <div class="filtrando">
           <input type="text" name="nome" class="filtro" placeholder="nome">
           <input type="text" name="cidade" class="filtro" placeholder="cidade">

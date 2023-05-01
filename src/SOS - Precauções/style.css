@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 80px;
+    background-color: #fcfbff;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+button {
+    background-color: #2363A9;
+    border-radius: 5px;
+    width: 200px;
+    height: 49px;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.login {
+    color: #FFFFFF;
+    font-family: Lato;
+    text-align: center;
+}
+
+h1 {
+    color: #47525E;
+    font-family: Lato;
+    font-size: 2.5rem;
+    line-height: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 75px;
+    width: 448px;
+    text-align: center;
+}
+
+#cards{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 350px;
+}
+
+.sos{
+    height: 100px;
+    width: 200px;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#veja{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#veja:hover{
+    font-size: 1.2rem;
+    background-color: #032244;
+    transition: all .7s ease-out;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #67796f;
+    width: 100%;
+    height: 81px;
+    text-align: center;
+}

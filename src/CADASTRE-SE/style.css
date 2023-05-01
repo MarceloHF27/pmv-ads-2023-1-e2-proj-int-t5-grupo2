@@ -127,3 +127,8 @@ button:hover{
     display: none;
 }
 
+
+#voltar{
+    margin-left: 10px;
+    text-decoration: none;
+}
