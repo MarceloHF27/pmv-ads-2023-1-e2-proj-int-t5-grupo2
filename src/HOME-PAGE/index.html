@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +8,108 @@
     <title>SOS - Pessoas Desaparecidas</title>
 </head>
 <body>
-    <div class="cabecalho">
-    <img src="../IMG/sos.jpg" alt="" height="100" id="imagem">
-    <div id="title">
+  <header class="cabecalho">
+    <div class="container">
+      <img src="../IMG/logo.png" alt="Logo" class="logo">
+      <div class="titulo">
         <h1>Pessoas Desaparecidas</h1>
-    </div>
-    <div id="logins" style="display: flex; justify-content: flex-end; align-items: end;">
-        <button class="login">CADASTRAR</button>
+      </div>
+      <div class="menu-icon">
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>
+      <div class="logins">
+        <button class="cadastro">CADASTRAR</button>
         <button class="login">LOGIN</button> 
-    </div>
-    </div>
-
-    <div id="escolher">
-        <button class="opcoes">CADASTRAR DESAPARECIDO</button>
-        <button class="opcoes">PRECAUCOES</button>
-        <div id="filtrando" style="display: flex; justify-content: flex-end;">
-            <input type="text" name="nome" class="filtro" placeholder="nome">
-            <input type="text" name="cidade" class="filtro" placeholder="cidade">
-            <a href="#" id="buscar"><img src="../IMG/lupa.png" alt="" height="14"></a>
+      </div>
+      <nav class="opcao">
+        <div class="menu-hamburguer">
+          <div class="linha"></div>
+          <div class="linha"></div>
+          <div class="linha"></div>
         </div>
+        <ul class="menu">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>                  
     </div>
+  </header>
+
+  <main>
+    <section class="escolher">
+      <div class="container">
+        <button class="opcao">CADASTRAR DESAPARECIDO</button>
+        <button class="opcao">PRECAUÇÕES</button>
+        <div class="filtrando">
+          <input type="text" name="nome" class="filtro" placeholder="nome">
+          <input type="text" name="cidade" class="filtro" placeholder="cidade">
+          <a href="#" class="buscar"><img src="../IMG/lupa.png" alt="Buscar"></a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="pessoas-desaparecidas">
+      <div class="container">
+        <h2 class="titulo-secao">Lista dos Desaparecidos</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img src="../IMG/maria.jpg" alt="Foto da pessoa desaparecida">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Maria Silva</h3>
+              <p class="card-text">28 anos</br>Desaparecida desde o dia 20/03/2022. Vista por último na Av. Leblon</p>
+              <a href="#" class="card-link">Ver mais</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-img">
+              <img src="../IMG/joao.jpg" alt="Foto da pessoa desaparecida">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">João Oliveira</h3>
+              <p class="card-text">18 anos
+                Desaparecido desde o dia 10/05/2017. Visto por último no bar do Sr. Joaquim</p>
+              <a href="#" class="card-link">Ver mais</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-img">
+              <img src="../IMG/lucas.jpg" alt="Foto da pessoa desaparecida">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Lucas Santos</h3>
+              <p class="card-text">36 anos
+                Desaparecido desde o dia 01/04/2023. Visto por último no Shopping Uai</p>
+              <a href="#" class="card-link">Ver mais</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-img">
+              <img src="../IMG/ana.jpg" alt="Foto da pessoa desaparecida">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Ana Rodrigues</h3>
+              <p class="card-text">28 anos
+                Desaparecida desde o dia 08/02/2022. Vista por último na calçada da Rua João</p>
+              <a href="#" class="card-link">Ver mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="footer-text">SOS - Pessoas Desaparecidas &copy; 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

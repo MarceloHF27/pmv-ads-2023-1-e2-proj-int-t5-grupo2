@@ -1,76 +1,309 @@
-body{
+/* Estilo geral */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+/* Estilo do cabeçalho */
+.cabecalho {
+  background-color: #fcfbff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;    
+  height: 120px;
+  width: 100%;
+  z-index: 100;    
+  margin-bottom: 25px;
 }
-
-.cabecalho{
+  
+  .logo {
+    margin-top: 10px;
+    max-width: 80px;
+    margin-right: 20px;
+  }
+  
+  .titulo {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: 10px;
+  }
+  
+  .titulo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .opcao {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 5px;
-    height: 80px;
-    background-color: #fcfbff;
-    width: 100%;
-    margin-bottom: 25px;
-}
+  }
 
-.login{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 15px 10px 10px;
-    padding: 15px;
-    font-size: 0.7rem;
-    font-weight: bolder;
-    background-color:rgb(21, 21, 214);
-    color: white;
-    border: none;
-}
-
-.login:hover{
-    background-color: rgb(6, 6, 88);
-    color: white;
-    font-size: 0.8rem;
-}
-
-
-#title{
-    padding-bottom: 40px;
+  .menu {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+  }
+
+  .menu li { 
+    margin-top: 10px;   
+    list-style: none;
+    gap: 0.5rem;
+    display: flex;
+    margin-right: 0.3px;
+  }
+    
+  .menu li a {    
+    display: block;
+    width: 100px;    
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-top: 30px;
-}
+    padding: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;    
+    background: rgb(214, 214, 218);   
+    border-radius: 4px;
+  }
+  
+  .menu li a:hover {    
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(21, 21, 214);
+  }
+  
+  .menu-hamburguer {
+    display: none;
+    cursor: pointer;
+  }
 
-.escolher{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px;
-        background-color: #fcfbff;
-}
-
-#filtrando{
-    margin-right: 20px;
-    ;
-}
-
-.opcoes{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15px;
-    padding: 8px;
-    font-weight: bolder;
+  .logins {
+    display: block;
+    text-align: right;
+    margin-top: -40px;
+  }
+  
+  .cadastro,
+  .login {
     background-color:rgb(21, 21, 214);
-    color: white;
     border: none;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;    
+  }
+  .linha {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(21, 21, 214);
+    margin: 5px 0;
+  }
+
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    position: absolute;
+    
+    top: 90px;
+    right: 0px;
+    background: #e7e7e7;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .menu-hamburguer {
+    display: block;
+  }
+  .menu.active {
+    display: block;  
+    width: 100%;
+    background-color: #fcfbff;        
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  .menu.active li {
+    display: block;
+    width: 100%;
+    margin-top: 1px;  
+  }
+      
+  .menu.active li a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    width: 100%;  
+  }   
+  .titulo h1 {
+    font-size: 20px;
+  }  
+  /* .card-text {
+    font-size: 1px;
+  }
+  .card-title {
+    font-size: 1px;
+  } */
+  
+}
+@media (max-width: 590px) {
+  .titulo {
+    display: none;
+  }
+  
+}
+.cadastro:hover,
+.login:hover {  
+  background-color: rgb(6, 6, 88);
+  color: white;
+  font-size: 0.8rem;
 }
 
-.opcoes:hover{
-    background-color: rgb(6, 6, 88);
-    color: white;
-    font-size: 0.8rem;
+/* Estilo das seções */
+.escolher {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  display: flex;
+  text-align: center;
+}
+.escolher .opcao {
+  background-color: rgb(21, 21, 214);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  display: inline-flex;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.escolher .opcao:hover {
+  background-color: #fff;
+  color: rgb(21, 21, 214);
+  border: 1px solid rgb(21, 21, 214);
+}
+.filtrando {
+  display: inline-flex;
+  align-items:end;
+}
+.filtro {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.buscar img {
+  margin-top: 10px;
+  height: 25px;
+  cursor: pointer;
 }
 
+.pessoas-desaparecidas {
+  padding: 30px 0;
+}
+.titulo-secao {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(21, 21, 214);
+  font-size: 28px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {        
+  flex-basis: 23%;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.card .card-img img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+.card .card-content {
+  padding: 20px;
+}
+.card .card-title {
+  font-size: 20px;
+  max-height: 1.2em;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  color: rgb(21, 21, 214);
+}
 
+.card .card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-height: 3.6em; 
+  line-height: 1.2em; 
+  overflow: hidden;
+  position: relative;
+}
 
+.card .card-text::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white; /* para evitar sobreposição */
+  padding-left: 0.5em;
+}
+    
+.card .card-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(21, 21, 214);
+  color: #fff;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.card .card-link:hover {
+  background-color: #fff;
+  color: rgb(21, 21, 214);
+  border: 1px solid rgb(21, 21, 214);
+}
 
+/*Rodapé*/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
