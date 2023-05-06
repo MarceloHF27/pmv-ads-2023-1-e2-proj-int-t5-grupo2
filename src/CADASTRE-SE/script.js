@@ -76,19 +76,21 @@ confirmSenha.addEventListener('keyup', () => {
     }
 });
 
+let cadastro = '<?php ?>'
+
 function cadastrar(){
     if(validNome && validUsuario && validSenha && validConfirmSenha){
-        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
+        // let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
 
-        listaUser.push(
-            {
-                nomeCad: nome.value,
-                userCad: usuario.value,
-                senhaCad: senha.value
-            }
-        )
+        // listaUser.push(
+        //     {
+        //         nomeCad: nome.value,
+        //         userCad: usuario.value,
+        //         senhaCad: senha.value
+        //     }
+        // )
 
-        localStorage.setItem('listaUser', JSON.stringify(listaUser))
+        // localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
 
         msgSuccess.setAttribute('style', 'display: block');
@@ -100,6 +102,7 @@ function cadastrar(){
             window.alert('Cadastrado com Sucesso');
             window.location.href = 'http://127.0.0.1:5500/src/LOGIN/index.html';
         }, 3000);
+
         
       
         
@@ -109,6 +112,7 @@ function cadastrar(){
         msgSuccess.innerHTML = ''
         msgSuccess.setAttribute('style', 'display: none');
     }
+
 };
 
 btn.addEventListener('click', ()=>{
