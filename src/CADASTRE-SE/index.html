@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+
+            <form action="cadastro_usuario.php" method="post">
+
+                <div class='label-float'>
+                    <input type='text' name="nome" id='nome' placeholder='' required>
+                    <label id="labelNome" for='nome'>Nome</label>
+                </div>
+
+                <div class='label-float'>
+                    <input type='text' name="usuario" id='usuario' placeholder='' required>
+                    <label id="labelUsuario" for='usuario'>Usuario</label>
+                </div>
+
+                <div class='label-float'>
+                    <input type='password' name="senha" id='senha' placeholder='' required>
+                    <label id="labelSenha" for='senha'>Senha</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class='label-float'>
+                    <input type='password' name="confimsenha" id='confirmSenha' placeholder='' required>
+                    <label id="labelConfirmSenha" for='confirmSenha'>Confirma Senha</label>
+                    <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class='justify-center'>
+                    <button type="submit" name="submit" id="button" onclick="cadastrar()">Enviar</button>
+                    <button onclick="voltar()" class="voltar">Voltar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Opa, instruções para criar um banco de dados do projeto.
+
+Medida paleativa ate podermos compartilhar o banco
+
+basta copiar os comandos abaixo para dentro do workbench, selecionar tudo e clicar no primeiro raiozinho
+
+create database sos;
+
+use sos;
+
+CREATE TABLE desaparecidos (
+  nome varchar(30) DEFAULT NULL,
+  idade int DEFAULT NULL,
+  sexo varchar(1) DEFAULT NULL,
+  data_desaparecimento date DEFAULT NULL,
+  id int DEFAULT NULL
+);
+
+CREATE TABLE usuarios (
+  nome varchar(30) DEFAULT NULL,
+  usuario varchar(30) NOT NULL,
+  senha varchar(15) DEFAULT NULL,
+  id_user int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (id_user,usuario)
+);
+
