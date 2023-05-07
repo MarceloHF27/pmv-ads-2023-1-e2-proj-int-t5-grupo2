@@ -10,21 +10,23 @@ btn.addEventListener('click', ()=>{
     }
 });
 
-function entrar(){
-    let usuario = document.querySelector('#usuario');
-    let userLabel = document.querySelector('#userLabel');
+// Codigo abaixo comentado para que a verificação seja feita através do php
 
-    let senha = document.querySelector('#senha');
-    let senhaLabel = document.querySelector('#senhaLabel');
+// function entrar(){
+//     let usuario = document.querySelector('#usuario');
+//     let userLabel = document.querySelector('#userLabel');
 
-    let msgError = document.querySelector('#msgError');
-    let listaUser = [];
+//     let senha = document.querySelector('#senha');
+//     let senhaLabel = document.querySelector('#senhaLabel');
 
-    let userValid = {
-        nome: null,
-        user: null,
-        senha: null
-    };
+//     let msgError = document.querySelector('#msgError');
+//     let listaUser = [];
+
+//     let userValid = {
+//         nome: null,
+//         user: null,
+//         senha: null
+//     };
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'));
 
@@ -55,7 +57,7 @@ function entrar(){
         usuario.focus();
     }
 
-}
+
 
 function voltar(){
     window.location.href = 'http://127.0.0.1:5500/src/HOME-PAGE/index.html';

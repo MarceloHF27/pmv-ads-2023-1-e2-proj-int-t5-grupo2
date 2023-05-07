@@ -17,29 +17,33 @@
 
             <div id="msgError"></div>
 
-            <div class='label-float'>
-                <input type='text' id='usuario' placeholder='' required>
-                <label id="userLabel" for='usuario'>Usuario</label>
-            </div>
+            <form action="login.php" method="post">
 
-            <div class='label-float'>
-                <input type='password' id='senha' placeholder='' required>
-                <label id="senhaLabel" for='senha'>Senha</label>
-                <i class="fa fa-eye" aria-hidden="true"></i>
-            </div>
+                <div class='label-float'>
+                    <input type='text' name="usuario" id='usuario' placeholder='' required>
+                    <label id="userLabel" for='usuario'>Usuario</label>
+                </div>
 
-            <div class='justify-center'>
-                <button onclick="entrar()">Entrar</button>
-                <button onclick="voltar()" id="voltar">Voltar</button>
-            </div>
+                <div class='label-float'>
+                    <input type='password' name="senha" id='senha' placeholder='' required>
+                    <label id="senhaLabel" for='senha'>Senha</label>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
 
-            <div class='justify-center'>
-                <hr>
-            </div>
+                <div class='justify-center'>
+                    <input type="submit" name="submit">
+                    <button onclick="voltar()" id="voltar">Voltar</button>
+                </div>
 
-            <p>Não tem uma conta ?
-                <a href="../CADASTRE-SE/index.html">Cadastre-se</a>
-            </p>
+                <div class='justify-center'>
+                    <hr>
+                </div>
+
+                <p>Não tem uma conta ?
+                    <a href="../CADASTRE-SE/index.html">Cadastre-se</a>
+                </p>
+            
+            </form>
 
         </div>
     </div>
