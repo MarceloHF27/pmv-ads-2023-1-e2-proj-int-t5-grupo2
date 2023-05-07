@@ -16,7 +16,7 @@ CREATE TABLE desaparecidos (
   id int DEFAULT NULL
 );
 
-CREATE TABLE usuario (
+CREATE TABLE usuarios (
   nome varchar(30) DEFAULT NULL,
   usuario varchar(30) NOT NULL,
   senha varchar(15) DEFAULT NULL,
