@@ -2,7 +2,7 @@
 
 // Efetua a conexão com o Banco de Dados
 
-    $dbHost = 'LocalHost';
+    $dbHost = 'Localhost';
     $dbUsername = 'root';
     $dbPassword = '';
     $dbName = 'sos';

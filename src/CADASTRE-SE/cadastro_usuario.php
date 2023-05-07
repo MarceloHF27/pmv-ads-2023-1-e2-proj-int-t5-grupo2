@@ -15,7 +15,7 @@
         if(mysqli_num_rows ($result) < 1){
             
             $insert_bd = mysqli_query($conexao, "INSERT INTO usuarios(nome,usuario,senha) VALUES('$nome','$usuario','$senha')");
-            header('Location: http://localhost/pmv-ads-2023-1-e2-proj-int-t5-grupo2/src/LOGIN/index.html');
+            header('Location: http://localhost:80/LOGIN/index.html');
             die();
         }
         else{

@@ -7,14 +7,9 @@ menuHamburguer.addEventListener("click", function() {
 });
 
 function cadastrar(){
-  window.alert('Você precisa estar Logado!');
+  window.location.href = 'http://localhost:80/FORMULARIODECADASTRO/index.html';
 };
 
 function precaucoes(){
-  window.alert('Você precisa estar Logado!');
-};
-
-function verMais(){
-  let verMais = document.querySelectorAll('.card-link');
-  window.alert('Você precisa estar Logado!');
+  window.location.href = 'http://localhost:80/PRECAUCOES/index.html';
 };

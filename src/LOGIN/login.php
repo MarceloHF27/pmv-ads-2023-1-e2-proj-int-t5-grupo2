@@ -18,22 +18,19 @@
             $verify_user = $user_data['usuario'];
             $verify_password = $user_data['senha'];
         }
-         if($usuario == $verify_user){
-            if($senha == $verify_password){
-                print_r('Entrou com sucesso');
+         if($usuario === $verify_user && $senha === $verify_password ){
+                header('Location: http://localhost:80/HOME-PAGESAIR/index.html');
+                die();
                 // direcionar para a homepage
-            }
-            else{
-                print_r('Senha ou Usuário errado');
-                // Voltar para area de login
-            }
+         }else{
+            echo("
+                <script> 
+                    window.location.href = 'http://localhost:80/LOGIN/index.html';
+                    window.alert('Usuário ou Senha inválidos');
+                </script>
+            ");
+            
          }
-         else{
-            print_r('Senha ou Usuário errado');
-            // Voltar para area de login
-        }
-
-
     }
 
 ?>

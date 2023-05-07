@@ -76,8 +76,6 @@ confirmSenha.addEventListener('keyup', () => {
     }
 });
 
-let cadastro = '<?php ?>'
-
 function cadastrar(){
     if(validNome && validUsuario && validSenha && validConfirmSenha){
         // let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
@@ -98,10 +96,11 @@ function cadastrar(){
         msgError.setAttribute('style', 'display: none');
         msgError.innerHTML = ''
         
-        setTimeout(() => {
+        /*setTimeout(() => {
             window.alert('Cadastrado com Sucesso');
             window.location.href = 'http://127.0.0.1:5500/src/LOGIN/index.html';
         }, 3000);
+        */
 
         
       
@@ -137,5 +136,5 @@ btnConfirm.addEventListener('click', ()=>{
 
 
 function voltar(){
-    window.location.href = "http://127.0.0.1:5500/src/HOME-PAGE/index.html";
+    window.location.href = 'http://localhost:80/HOME-PAGE/index.html';
 }

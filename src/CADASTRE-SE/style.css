@@ -76,7 +76,7 @@ h1{
     color: #4038a0;
 }
 
-button{
+#button{
     background-color: transparent;
     border-color: #0d009c;
     color: #0d009c;
@@ -90,7 +90,7 @@ button{
     transition: all .4s ease-out;
 }
 
-button:hover{
+#button:hover{
     background-color: #0d009c;
     color: #fff;
 }
@@ -128,7 +128,23 @@ button:hover{
 }
 
 
-#voltar{
+.voltar{
+    background-color: transparent;
+    border-color: #0d009c;
+    color: #0d009c;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
     margin-left: 10px;
     text-decoration: none;
+}
+
+.voltar:hover{
+    background-color: #0d009c;
+    color: #fff;
 }
