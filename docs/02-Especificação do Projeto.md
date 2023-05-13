@@ -215,7 +215,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Interagir com os Posts de pessoas desaparecidas.  | MÉDIA | 
 |RF-002| O site deve gerenciar as informações dos desaparecidos.    | ALTA |
-|RF-003| O sistema deve fornece campos para observações do desaparecido, ex: hora, data, roupa, local que o desaparecido foi visto por último.   | ALTA |
+|RF-003| O sistema deve fornecer campos para observações do desaparecido, ex: hora, data, roupa, local que o desaparecido foi visto por último.   | ALTA |
 |RF-004| O sistema deve ter a opção de anexar arquivos do desaparecido.     | ALTA |
 |RF-005| O sistema deve conter um portal de notícias com todos os desaparecidos.    | ALTA |
 |RF-006| O site deve apresentar uma página ou rodapé com as informações para contato com os mantedores do mesmo.    | BAIXA |
