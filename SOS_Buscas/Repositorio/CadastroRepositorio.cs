@@ -10,6 +10,14 @@ namespace SOS_Buscas.Repositorio
         {
             _bancoContext = bancoContext;
         }
+
+
+        public List<User> Verificar()
+        {
+            return _bancoContext.Usuario.ToList();
+        }
+
+
         public User Adicionar(User usuario)
         {
 
@@ -17,5 +25,7 @@ namespace SOS_Buscas.Repositorio
             _bancoContext.SaveChanges();
             return usuario;
         }
+
+        
     }
 }

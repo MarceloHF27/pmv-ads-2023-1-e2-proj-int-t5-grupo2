@@ -3854,11 +3854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samuel - Estudos\\Documents\\SOS-Buscas-asp\\SOS_Buscas\\SOS_Buscas.csproj",
+      "projectUniqueName": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t5-grupo2\\SOS_Buscas\\SOS_Buscas.csproj",
       "projectName": "SOS_Buscas",
-      "projectPath": "C:\\Users\\Samuel - Estudos\\Documents\\SOS-Buscas-asp\\SOS_Buscas\\SOS_Buscas.csproj",
+      "projectPath": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t5-grupo2\\SOS_Buscas\\SOS_Buscas.csproj",
       "packagesPath": "C:\\Users\\Samuel - Estudos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samuel - Estudos\\Documents\\SOS-Buscas-asp\\SOS_Buscas\\obj\\",
+      "outputPath": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t5-grupo2\\SOS_Buscas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Samuel - Estudos\\AppData\\Roaming\\NuGet\\NuGet.Config",

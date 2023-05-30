@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fo3mu2bpzS5+yKXKPp8SgCyOMQEQmaQ09s4cZt5F6LOS0l/2ZptkYv2aWGdZPs+qy/mB3MemcfNQrih/Z7YnWQ==",
+  "dgSpecHash": "O0Mx1RfCO3JAsLTT52DOxmJia5ubql/QMWXT8My2URWnfz4rpSSad6O92HACNYh0V1XNXC58MUxckaxtagld+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Samuel - Estudos\\Documents\\SOS-Buscas-asp\\SOS_Buscas\\SOS_Buscas.csproj",
+  "projectFilePath": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t5-grupo2\\SOS_Buscas\\SOS_Buscas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Samuel - Estudos\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Samuel - Estudos\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

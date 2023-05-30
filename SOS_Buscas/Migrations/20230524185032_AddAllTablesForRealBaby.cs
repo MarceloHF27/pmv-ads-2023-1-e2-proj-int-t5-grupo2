@@ -15,12 +15,12 @@ namespace SOS_Buscas.Migrations
                 name: "Descricao",
                 columns: table => new
                 {
-                    Roupa = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TamanhoCabelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CorCabelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CorPele = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Tatuagem = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Observacoes = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Roupa = table.Column<string>(type: "varchar(100)", nullable: false),
+                    TamanhoCabelo = table.Column<string>(type: "varchar(10)", nullable: false),
+                    CorCabelo = table.Column<string>(type: "varchar(15)", nullable: false),
+                    CorPele = table.Column<string>(type: "varchar(10)", nullable: false),
+                    Tatuagem = table.Column<string>(type: "varchar(400)", nullable: false),
+                    Observacoes = table.Column<string>(type: "varchar(500)", nullable: false),
                     Idade = table.Column<int>(type: "int", nullable: false),
                     Altura = table.Column<double>(type: "float", nullable: false),
                     DesaparecidoID = table.Column<int>(type: "int", nullable: false)
@@ -41,12 +41,12 @@ namespace SOS_Buscas.Migrations
                 {
                     CEP = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Rua = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rua = table.Column<string>(type: "varchar(50)", nullable: false),
                     Numero = table.Column<int>(type: "int", nullable: false),
-                    Complemento = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Municipio = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Bairro = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UF = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Complemento = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Municipio = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Bairro = table.Column<string>(type: "varchar(40)", nullable: false),
+                    UF = table.Column<string>(type: "varchar(2)", nullable: false),
                     UserID = table.Column<int>(type: "int", nullable: false),
                     DesaparecidoID = table.Column<int>(type: "int", nullable: false)
                 },
@@ -73,10 +73,10 @@ namespace SOS_Buscas.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Sobrenome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nome = table.Column<string>(type: "varchar(15)", nullable: false),
+                    Sobrenome = table.Column<string>(type: "varchar(40)", nullable: false),
                     Idade = table.Column<int>(type: "int", nullable: false),
-                    parentesco = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    parentesco = table.Column<string>(type: "varchar(20)", nullable: false),
                     DesaparecidoID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -122,7 +122,7 @@ namespace SOS_Buscas.Migrations
                 columns: table => new
                 {
                     Cod_Area = table.Column<int>(type: "int", nullable: false),
-                    Numero = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Numero = table.Column<string>(type: "varchar(15)", nullable: false),
                     DesaparecidoID = table.Column<int>(type: "int", nullable: false),
                     UserID = table.Column<int>(type: "int", nullable: false),
                     FamiliarID = table.Column<int>(type: "int", nullable: false)
@@ -153,11 +153,11 @@ namespace SOS_Buscas.Migrations
                 name: "LocalAvistamentos",
                 columns: table => new
                 {
-                    Rua = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Bairro = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Municipio = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UF = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PontoReferencia = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rua = table.Column<string>(type: "varchar(15)", nullable: false),
+                    Bairro = table.Column<string>(type: "varchar(15)", nullable: false),
+                    Municipio = table.Column<string>(type: "varchar(15)", nullable: false),
+                    UF = table.Column<string>(type: "varchar(2)", nullable: false),
+                    PontoReferencia = table.Column<string>(type: "varchar(100)", nullable: false),
                     AvistamentoID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

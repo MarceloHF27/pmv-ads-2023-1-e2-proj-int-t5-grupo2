@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using SOS_Buscas.Models;
 using SOS_Buscas.Repositorio;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace SOS_Buscas.Controllers
 {
@@ -20,28 +21,29 @@ namespace SOS_Buscas.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Cadastrar(User usuario)
+        public IActionResult Cadastrar(User usuario)
         {
-            String email = usuario.Email;
+            List<User> users = _cadastro.Verificar();
 
-            MySqlConnection mySqlConnection = new MySqlConnection("Server=SAMUEL; Database=SOS_Buscas; User Id=sa; Password  = 1234");
-            await mySqlConnection.OpenAsync();
+            string email = usuario.Email;
 
-            MySqlCommand mySqlCommand = new MySqlCommand();
-            mySqlCommand.CommandText = $"SELECT * FROM Usuario WHERE Email = '{email}'";
 
-            MySqlDataReader reader = mySqlCommand.ExecuteReader();
-
-            if(await  reader.ReadAsync())
+            if (users != null && users.Any())
             {
-                return Json(new { msg = "usuário já existente" });
-            }
-            else
-            {
+                foreach (User user in users) 
+                {
+                    if (user.Email == email)
+                    {
+                        return Json(new { Msg = "erro" });
+                    }
+                }
                 _cadastro.Adicionar(usuario);
                 
+
             }
             return RedirectToAction("index");
+
+
 
 
         }

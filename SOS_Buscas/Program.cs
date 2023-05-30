@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContextPool<BancoContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
 
 builder.Services.AddScoped<ICadastro, CadastroRepositorio>();
+builder.Services.AddScoped<ILogin, LoginRepositorio>();
 
 //------------------------------------------------------------------------------------------------------
 
