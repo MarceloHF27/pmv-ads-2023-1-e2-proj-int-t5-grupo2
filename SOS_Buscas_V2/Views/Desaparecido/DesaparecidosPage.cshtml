@@ -1,0 +1,35 @@
+﻿@model DesaparecidoModel
+
+
+@{
+    List<DesaparecidoModel> desaparecidos = Model.DadosDesaparecidos();
+}
+
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">CorPele</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @if(desaparecidos != null && desaparecidos.Any())
+            {
+                foreach(DesaparecidoModel desaparecido in desaparecidos)
+                {
+                    <tr>
+                        <th scope="row">@desaparecido.Id</th>
+                        <td>@desaparecido.Nome</td>
+                        <td>@desaparecido.Sobrenome</td>
+                        <td>@desaparecido.CorPele</td>
+
+                    </tr> 
+                }
+            }
+        </tbody>
+    </table>
+</body>

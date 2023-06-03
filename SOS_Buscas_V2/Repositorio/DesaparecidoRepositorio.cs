@@ -25,5 +25,11 @@ namespace SOS_Buscas_V2.Repositorio
         {
             return _bancoContext.Desaparecidos.ToList();
         }
+
+        public DesaparecidoModel ListarPorId(Guid id)
+        {
+            return _bancoContext.Desaparecidos.FirstOrDefault(o => o.Id == id);
+
+        }
     }
 }

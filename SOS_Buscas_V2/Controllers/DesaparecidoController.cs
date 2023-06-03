@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using SOS_Buscas_V2.Helper;
 using SOS_Buscas_V2.Models;
 using SOS_Buscas_V2.Repositorio;
@@ -26,6 +27,21 @@ namespace SOS_Buscas_V2.Controllers
             return View();
         }
 
+        public IActionResult EditarPage()
+        {
+            return View();
+        }
+
+        public IActionResult CadastrarPage()
+        {
+            return View();
+        }
+
+        public IActionResult DesaparecidosPage()
+        {
+            return View();
+        }
+
         //----------------------------------------------------------------------
         //Metodo para verificar se o desaparecido já foi cadastrado e caso não tenha sido cadastrar o mesmo
         public IActionResult Cadastrar(DesaparecidoModel desaparecido, IFormFile foto)
@@ -35,14 +51,14 @@ namespace SOS_Buscas_V2.Controllers
             string CaminhoDaImagem = _caminhoImagem + "\\Imagens\\";
             string nomeImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
 
-            if ( !Directory.Exists(CaminhoDaImagem))
+            if (!Directory.Exists(CaminhoDaImagem))
             {
                 Directory.CreateDirectory(CaminhoDaImagem);
             }
 
             using (var stream = System.IO.File.Create(CaminhoDaImagem + nomeImagem))
             {
-                foto.CopyToAsync(stream);    
+                foto.CopyToAsync(stream);
             }
 
             desaparecido.CaminhoImagem = nomeImagem;
@@ -55,13 +71,13 @@ namespace SOS_Buscas_V2.Controllers
 
             desaparecido.EmailUsuario = EmailUsuario;
             //-----------------------------------------------------------------
-            
-            
+
+
             if (desaparecidos != null && desaparecidos.Any())
             {
-                foreach(DesaparecidoModel missing in desaparecidos)  //Vrifica se o desaparecido já foi cadastrado
+                foreach (DesaparecidoModel missing in desaparecidos)  //Vrifica se o desaparecido já foi cadastrado
                 {
-                    if(missing.Nome == desaparecido.Nome && missing.Sobrenome == desaparecido.Sobrenome)
+                    if (missing.Nome == desaparecido.Nome && missing.Sobrenome == desaparecido.Sobrenome)
                     {
                         return Json(new { Msg = "esse usuario já existe" });
                     }
@@ -71,6 +87,13 @@ namespace SOS_Buscas_V2.Controllers
             }
             _iDesaparecido.Criar(desaparecido);    //Cadastrar o desaparecido no banco
             return Json(new { Msg = "criado" });
+        }
+
+        public IActionResult Editar(Guid id)
+        {
+            DesaparecidoModel desaparecido = _iDesaparecido.ListarPorId(id);
+
+            return View(desaparecido);
         }
     }
 }

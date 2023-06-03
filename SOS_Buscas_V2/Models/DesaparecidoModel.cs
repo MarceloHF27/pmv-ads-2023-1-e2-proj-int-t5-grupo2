@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using SOS_Buscas_V2.Repositorio;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -6,6 +7,20 @@ namespace SOS_Buscas_V2.Models
 {
     public class DesaparecidoModel
     {
+
+        private readonly IDesaparecido _desaparecido;
+        public DesaparecidoModel(IDesaparecido desaparecido)
+        {
+            _desaparecido = desaparecido;
+        }
+
+        public List<DesaparecidoModel> DadosDesaparecidos()
+        {
+            return _desaparecido.Listar();
+        }
+
+
+
 
         [Key]
         public Guid Id { get; set; }
