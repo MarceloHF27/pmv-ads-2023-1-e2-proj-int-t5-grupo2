@@ -93,10 +93,10 @@ namespace SOS_Buscas_V2.Controllers
         //------------------------------------------------------------------
         //Função que retorna os dados dos desaparecidos
 
-        //Variavel que recebe uma lista com os dados dos desaparecidos
-        private List<DesaparecidoModel> _desaparecido;
-
         
+        private List<DesaparecidoModel> _desaparecido;     //Variavel que recebe uma lista com os dados dos desaparecidos
+
+
         public IActionResult DesaparecidosPage()
         {
             List<DesaparecidoModel> desaparecidos = _iDesaparecido.Listar();
