@@ -27,9 +27,21 @@ namespace SOS_Buscas_V2.Controllers
             return View();
         }
 
-        public IActionResult EditarPage()
+
+        private DesaparecidoModel _desaparecidos;
+        public IActionResult EditarPage(Guid id)
         {
-            return View();
+            DesaparecidoModel desaparecido = _iDesaparecido.ListarPorId(id);
+            _desaparecidos = desaparecido;
+
+
+            if(desaparecido != null ) 
+            {
+                return View(desaparecido);
+            }
+            return Json(new { Msg = "erro" });
+
+
         }
 
         public IActionResult CadastrarPage()
@@ -45,7 +57,7 @@ namespace SOS_Buscas_V2.Controllers
         {
             
             
-            List<DesaparecidoModel> desaparecidos = _iDesaparecido.Listar();
+            
            
 
 
@@ -73,6 +85,7 @@ namespace SOS_Buscas_V2.Controllers
             desaparecido.EmailUsuario = EmailUsuario;
             //------------------------------------------------------------------
 
+            List<DesaparecidoModel> desaparecidos = _iDesaparecido.Listar();
 
             if (desaparecidos != null && desaparecidos.Any())
             {
