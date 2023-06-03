@@ -8,7 +8,7 @@
 
     
 <div class="card" style="width: 18rem;">
-    @if(Model != null )
+    @if(Model != null && Model.Any() )
     {
         foreach(DesaparecidoModel desaparecido in Model)
         {

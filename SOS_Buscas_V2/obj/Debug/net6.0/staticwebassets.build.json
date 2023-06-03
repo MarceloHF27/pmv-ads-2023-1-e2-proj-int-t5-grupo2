@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oolAbINba3CaixPn8cNDarbKeShALTMGbkhA+jCNs+w=",
+  "Hash": "zQelPVBZeJDFcul1gC3PBgaTpK7fXHJT9kTpgXmDbOY=",
   "Source": "SOS_Buscas_V2",
   "BasePath": "_content/SOS_Buscas_V2",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\Imagens\\2bf1102c-b32b-4059-8eb5-8c46842c546d_billllll.png",
+      "SourceId": "SOS_Buscas_V2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\",
+      "BasePath": "_content/SOS_Buscas_V2",
+      "RelativePath": "Imagens/2bf1102c-b32b-4059-8eb5-8c46842c546d_billllll.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\2bf1102c-b32b-4059-8eb5-8c46842c546d_billllll.png"
+    },
+    {
       "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\Imagens\\48cfe416-2fa8-4556-9c9d-5c1dcc750fac_UseCase Diagram0.png",
       "SourceId": "SOS_Buscas_V2",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\98587dca-4ac4-4b1b-9b0e-5f61628e8d3f_UseCase Diagram0.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\Imagens\\cfd482ae-26e5-4cab-a693-0c93b5fc5300_billllll.png",
+      "SourceId": "SOS_Buscas_V2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\",
+      "BasePath": "_content/SOS_Buscas_V2",
+      "RelativePath": "Imagens/cfd482ae-26e5-4cab-a693-0c93b5fc5300_billllll.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\cfd482ae-26e5-4cab-a693-0c93b5fc5300_billllll.png"
     },
     {
       "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\Imagens\\dee7860d-3ef4-4a7c-9e80-98d9ad1c4080_UseCase Diagram0.png",

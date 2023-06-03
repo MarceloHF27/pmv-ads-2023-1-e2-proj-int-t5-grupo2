@@ -8,8 +8,9 @@ namespace SOS_Buscas_V2.Models
     
     public class UsuarioModel
     {
+        //------------------------------------------------------------------
+        //Modelo para a tabela 
 
-        
         public Guid Id { get; set; }
         
 
@@ -36,8 +37,8 @@ namespace SOS_Buscas_V2.Models
         [Column(TypeName = "DateTime")]
         public DateTime Nascimento { get; set; }
 
-        //---------------------------------------------
-
+        //------------------------------------------------------------------
+        //Função para verificar a senha
         public bool VerificarSenha(string senha)
         {
             return Senha == senha;

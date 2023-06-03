@@ -4,6 +4,8 @@ namespace SOS_Buscas_V2.Repositorio
 {
     public interface IUsuario
     {
+        //------------------------------------------------------------------
+        //Contratos do CRUD Usuários
 
         UsuarioModel VerificarLogin(string email);
         

@@ -37,16 +37,17 @@ namespace SOS_Buscas_V2.Controllers
             return View();
         }
 
-        public IActionResult DesaparecidosPage()
-        {
-            return View();
-        }
+        
 
         //----------------------------------------------------------------------
         //Metodo para verificar se o desaparecido já foi cadastrado e caso não tenha sido cadastrar o mesmo
         public IActionResult Cadastrar(DesaparecidoModel desaparecido, IFormFile foto)
         {
+            
+            
             List<DesaparecidoModel> desaparecidos = _iDesaparecido.Listar();
+           
+
 
             string CaminhoDaImagem = _caminhoImagem + "\\Imagens\\";
             string nomeImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
@@ -70,12 +71,12 @@ namespace SOS_Buscas_V2.Controllers
             string EmailUsuario = usuario.Email;
 
             desaparecido.EmailUsuario = EmailUsuario;
-            //-----------------------------------------------------------------
+            //------------------------------------------------------------------
 
 
             if (desaparecidos != null && desaparecidos.Any())
             {
-                foreach (DesaparecidoModel missing in desaparecidos)  //Vrifica se o desaparecido já foi cadastrado
+                foreach (DesaparecidoModel missing in desaparecidos)  //Verifica se o desaparecido já foi cadastrado
                 {
                     if (missing.Nome == desaparecido.Nome && missing.Sobrenome == desaparecido.Sobrenome)
                     {
@@ -89,6 +90,31 @@ namespace SOS_Buscas_V2.Controllers
             return Json(new { Msg = "criado" });
         }
 
+        //------------------------------------------------------------------
+        //Função que retorna os dados dos desaparecidos
+
+        //Variavel que recebe uma lista com os dados dos desaparecidos
+        private List<DesaparecidoModel> _desaparecido;
+
+        
+        public IActionResult DesaparecidosPage()
+        {
+            List<DesaparecidoModel> desaparecidos = _iDesaparecido.Listar();
+            _desaparecido = desaparecidos;
+
+            foreach (DesaparecidoModel desaparecido in _desaparecido)      //Laço de repetição que cria os dados das colunas
+            {
+                List<DesaparecidoModel> dadosDesaparecido = _iDesaparecido.Listar();
+                return View(dadosDesaparecido);
+            }
+
+            return View();
+
+            
+        }
+
+        //------------------------------------------------------------------
+        //Função que permite a edição dos dados do usuário
         public IActionResult Editar(Guid id)
         {
             DesaparecidoModel desaparecido = _iDesaparecido.ListarPorId(id);

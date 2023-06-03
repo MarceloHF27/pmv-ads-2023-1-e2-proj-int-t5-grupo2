@@ -1,8 +1,8 @@
-﻿@model DesaparecidoModel
+﻿@model List<DesaparecidoModel>
 
 
 @{
-    List<DesaparecidoModel> desaparecidos = Model.DadosDesaparecidos();
+     
 }
 
 <body>
@@ -17,9 +17,9 @@
         </thead>
 
         <tbody>
-            @if(desaparecidos != null && desaparecidos.Any())
+            @if(Model != null && Model.Any())
             {
-                foreach(DesaparecidoModel desaparecido in desaparecidos)
+                foreach(DesaparecidoModel desaparecido in Model)
                 {
                     <tr>
                         <th scope="row">@desaparecido.Id</th>

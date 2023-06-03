@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SOS_Buscas_V2.Models
 {
+    //------------------------------------------------------------------
+    //Modelo para a tabela de Avistamentos
+
     public class AvistamentoModel
     {
         [Column(TypeName = "DateTime")]

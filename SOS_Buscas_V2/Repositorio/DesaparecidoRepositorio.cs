@@ -3,9 +3,12 @@ using SOS_Buscas_V2.Models;
 
 namespace SOS_Buscas_V2.Repositorio
 {
-    public class DesaparecidoRepositorio : IDesaparecido
 
+    public class DesaparecidoRepositorio : IDesaparecido
     {
+        //------------------------------------------------------------------
+        //Construtor para injetar o BancoContext
+
         private readonly BancoContext _bancoContext;
         public DesaparecidoRepositorio(BancoContext bancoContext)
         {
@@ -13,7 +16,8 @@ namespace SOS_Buscas_V2.Repositorio
         }
 
 
-
+        //------------------------------------------------------------------
+        //Salva os dados preenchidos no formulario no Banco de dados
         public DesaparecidoModel Criar(DesaparecidoModel desaparecido)
         {
             _bancoContext.Desaparecidos.Add(desaparecido);
@@ -21,10 +25,17 @@ namespace SOS_Buscas_V2.Repositorio
             return desaparecido;
         }
 
+
+        //------------------------------------------------------------------
+        //Lista os dados da tabela Desaparecidos presente Banco de dados
         public List<DesaparecidoModel> Listar()
         {
             return _bancoContext.Desaparecidos.ToList();
         }
+
+
+        //------------------------------------------------------------------
+        //Lista os dados da tabela Desaparecidos presente Banco de dados que possuem o id informado a função
 
         public DesaparecidoModel ListarPorId(Guid id)
         {

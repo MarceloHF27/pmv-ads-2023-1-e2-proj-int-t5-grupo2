@@ -7,20 +7,8 @@ namespace SOS_Buscas_V2.Models
 {
     public class DesaparecidoModel
     {
-
-        private readonly IDesaparecido _desaparecido;
-        public DesaparecidoModel(IDesaparecido desaparecido)
-        {
-            _desaparecido = desaparecido;
-        }
-
-        public List<DesaparecidoModel> DadosDesaparecidos()
-        {
-            return _desaparecido.Listar();
-        }
-
-
-
+        //------------------------------------------------------------------
+        //Modelo para a tabela de Desaparecidos
 
         [Key]
         public Guid Id { get; set; }
