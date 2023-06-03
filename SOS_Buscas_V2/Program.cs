@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using SOS_Buscas_V2.Data;
+using SOS_Buscas_V2.Helper;
 using SOS_Buscas_V2.Repositorio;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +18,20 @@ string conection = builder.Configuration.GetConnectionString("SOS_BuscasDB");
 
 builder.Services.AddDbContextPool<BancoContext>(options => options.UseSqlServer(conection));
 
+//----------------------------------------------------------------------------------------------------------------
+// Configurando as injeções de dependência
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
+
 builder.Services.AddScoped<IUsuario, UsuarioRepositorio>();
+builder.Services.AddScoped<ISessao, SessaoRepositorio>();
+builder.Services.AddScoped<IDesaparecido, DesaparecidoRepositorio>();
+
+builder.Services.AddSession(o =>
+        {
+            o.Cookie.HttpOnly = true;
+            o.Cookie.IsEssential = true;
+        });
 
 //----------------------------------------------------------------------------------------------------------------
 
@@ -37,6 +53,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

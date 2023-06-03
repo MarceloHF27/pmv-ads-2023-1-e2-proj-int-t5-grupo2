@@ -1,14 +1,16 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SOS_Buscas_V2.Models
 {
+    
     public class UsuarioModel
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
-        public int Id { get; set; }
+
+        
+        public Guid Id { get; set; }
         
 
         [Column(TypeName = "varchar(11)")]
@@ -22,8 +24,8 @@ namespace SOS_Buscas_V2.Models
 
         [Column(TypeName = "varchar(45)")]
         public string Sobrenome { get; set; }
-        
 
+        [Key]
         [Column(TypeName = "varchar(45)")]
         public string Email { get; set; }
         

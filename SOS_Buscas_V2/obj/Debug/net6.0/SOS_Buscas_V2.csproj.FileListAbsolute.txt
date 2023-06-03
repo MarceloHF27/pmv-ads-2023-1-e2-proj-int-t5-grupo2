@@ -85,3 +85,4 @@ C:\Users\Samuel - Estudos\Documents\GitHub\SOS_Buscas_V2\obj\Debug\net6.0\refint
 C:\Users\Samuel - Estudos\Documents\GitHub\SOS_Buscas_V2\obj\Debug\net6.0\SOS_Buscas_V2.pdb
 C:\Users\Samuel - Estudos\Documents\GitHub\SOS_Buscas_V2\obj\Debug\net6.0\SOS_Buscas_V2.genruntimeconfig.cache
 C:\Users\Samuel - Estudos\Documents\GitHub\SOS_Buscas_V2\obj\Debug\net6.0\ref\SOS_Buscas_V2.dll
+C:\Users\Samuel - Estudos\Documents\GitHub\SOS_Buscas_V2\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GSvXNWNNbkdrIi0c+SDgjalg+se40SpgldHwAqwgwIA=",
+  "Hash": "Dnli2oUzmbYcYiY1AzWxG+SokkxPCj3zf3j7I4IUPjM=",
   "Source": "SOS_Buscas_V2",
   "BasePath": "_content/SOS_Buscas_V2",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\Imagens\\dee7860d-3ef4-4a7c-9e80-98d9ad1c4080_UseCase Diagram0.png",
+      "SourceId": "SOS_Buscas_V2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\",
+      "BasePath": "_content/SOS_Buscas_V2",
+      "RelativePath": "Imagens/dee7860d-3ef4-4a7c-9e80-98d9ad1c4080_UseCase Diagram0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\dee7860d-3ef4-4a7c-9e80-98d9ad1c4080_UseCase Diagram0.png"
     },
     {
       "Identity": "C:\\Users\\Samuel - Estudos\\Documents\\GitHub\\SOS_Buscas_V2\\wwwroot\\js\\site.js",

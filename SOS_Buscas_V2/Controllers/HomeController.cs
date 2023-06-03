@@ -4,6 +4,9 @@ using System.Diagnostics;
 
 namespace SOS_Buscas_V2.Controllers
 {
+
+    //----------------------------------------------------------------------
+    //Controla todas as ações da pagina home
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
