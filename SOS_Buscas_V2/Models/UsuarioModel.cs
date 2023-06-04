@@ -29,16 +29,24 @@ namespace SOS_Buscas_V2.Models
         [Key]
         [Column(TypeName = "varchar(45)")]
         public string Email { get; set; }
-
+        
 
         [Column(TypeName = "varchar(45)")]
         public string Senha { get; set; }
-        //------------------------------------------------------------------
-        //Função para verificar a senha
-        public bool VerificarSenha(string senha) => Senha == senha;
 
         [Column(TypeName = "DateTime")]
         public DateTime Nascimento { get; set; }
+
+        //------------------------------------------------------------------
+        //Função para verificar a senha
+        public bool VerificarSenha(string senha)
+        {
+            return Senha == senha;
+        }
+
+
+
+
 
     }
 }

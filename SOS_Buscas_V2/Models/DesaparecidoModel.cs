@@ -40,11 +40,6 @@ namespace SOS_Buscas_V2.Models
         [Column(TypeName = "nvarchar(100)")]
         public string? CaminhoImagem { get; set; }
 
-        [Column(TypeName = "nvarchar(100)")]
-        public EnderecoModel? Endereco { get; set; }
-
-        [Column(TypeName = "nvarchar(100)")]
-        public ContatoModel? Contato { get; set; }
 
         [Column(TypeName = "DateTime")]
         public DateTime DataHoraDesaparecimento { get; set; }

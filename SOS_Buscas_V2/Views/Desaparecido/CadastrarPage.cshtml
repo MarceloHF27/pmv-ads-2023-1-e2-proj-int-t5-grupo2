@@ -1,6 +1,44 @@
 ﻿@model DesaparecidoModel
 
 <div>
+
+    <style>
+        .form-control {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        input[type="submit"].btn-primary {
+            width: auto;
+        }
+
+            input[type="submit"].btn-primary:hover {
+                background-color: #0069d9;
+            }
+    </style>
+
     <form asp-controller="Desaparecido" asp-action="Cadastrar" method="post" enctype="multipart/form-data">
         <input name="Nome" class="form-control" type="text" asp-for="Nome" placeholder="Nome" aria-label="default input example">
         <input name="Sobrenome" class="form-control" type="text" asp-for="Sobrenome" placeholder="Sobrenome" aria-label="default input example">
@@ -11,16 +49,9 @@
         <input name="Altura" class="form-control" type="text" asp-for="Altura" placeholder="Altura" aria-label="default input example">
         <input name="Tatuagem" class="form-control" type="text" asp-for="Tatoagem" placeholder="Tatuagem" aria-label="default input example">
         <input name="Observacoes" class="form-control" type="text" asp-for="Observacoes" placeholder="Observacoes" aria-label="default input example">
-        <input name="Rua" class="form-control" type="text" asp-for="Endereco.Rua" placeholder="Rua" aria-label="default input example">
-        <input name="Numero" class="form-control" type="text" asp-for="Endereco.Numero" placeholder="Numero" aria-label="default input example">
-        <input name="Cep" class="form-control" type="text" asp-for="Endereco.Cep" placeholder="Cep" aria-label="default input example">
-        <input name="Cidade" class="form-control" type="text" asp-for="Endereco.Cidade" placeholder="Cidade" aria-label="default input example">
-        <input name="Celular" class="form-control" type="text" asp-for="Contato.Celular" placeholder="Celular" aria-label="default input example">
-        <input name="EmailContato" class="form-control" type="text" asp-for="Contato.EmailContato" placeholder="Email Contato" aria-label="default input example">
 
+        <input type="file" name="foto" / style="display:flex;">
 
-        <input type="file" name="foto" />
-
-        <input type="submit" class="btn btn-primary">
+        <input type="submit" class="btn btn-primary" style="display:flex;">
     </form>
 </div>

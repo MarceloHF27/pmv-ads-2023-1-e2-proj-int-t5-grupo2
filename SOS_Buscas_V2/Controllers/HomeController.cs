@@ -40,11 +40,6 @@ namespace SOS_Buscas_V2.Controllers
 
         //------------------------------------------------------------------
 
-        public IActionResult Precaucoes()
-        {
-            return View();
-        }
-
         public IActionResult Privacy()
         {
             return View();
