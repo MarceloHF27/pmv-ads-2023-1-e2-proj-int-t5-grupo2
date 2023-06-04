@@ -3,18 +3,48 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div class="home-text-center">
+    <div class="home-botoes">
+        <form asp-controller="Cadastro" asp-action="Index">
+            <button type="submit" class="home-btn btn-primary">Cadastrar Desaparecido</button>
+        </form>
+        <form>
+            <button type="submit" class="home-btn btn-primary">Precauções</button>
+        </form>
+    </div>
+    <div class="home-filtro">
+        <form>
+            <input class="home-form-control form-control-sm" type="text" placeholder="Nome" aria-label=".form-control-sm example">
+            <input class="home-form-control form-control-sm" type="text" placeholder="Cidade" aria-label=".form-control-sm example">
+            <button type="submit" class="home-btn btn-primary">Buscar</button>
+        </form>
+    </div>
+</div>
 
-<div class="card" style="width: 18rem;">
-    @if(Model != null && Model.Any() )
-    {
-        foreach(DesaparecidoModel desaparecido in Model)
-        {
-                <img src="~/Imagens/@desaparecido.CaminhoImagem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">@desaparecido.Nome</h5>  
-                    <p class="card-text">@desaparecido.Observacoes</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>   
-        }
-    }
+<div>
+    <section class="home-pessoas-desaparecidas">
+        <div class="home-container">
+            <h2 class="home-titulo-secao">Desaparecidos</h2>
+            @if (Model != null)
+            {
+                int count = 0;
+                @foreach (DesaparecidoModel desaparecido in Model)
+                {
+                    if (count >= 3)
+                    {
+                        break;
+                    }
+                    <div class="home-card">
+                        <img src="~/Imagens/@desaparecido.CaminhoImagem" class="home-card-img-top" alt="Foto da pessoa desaparecida">
+                        <div class="home-card-body">
+                            <h5 class="home-card-title">@desaparecido.Nome</h5>
+                            <p class="home-card-text">@desaparecido.Observacoes</p>
+                            <a href="#" class="home-btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                    count++;
+                }
+            }
+        </div>
+    </section>
 </div>

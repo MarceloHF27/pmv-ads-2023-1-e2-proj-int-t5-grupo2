@@ -12,8 +12,8 @@ using SOS_Buscas_V2.Data;
 namespace SOS_Buscas_V2.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20230603055837_AddFoto")]
-    partial class AddFoto
+    [Migration("20230604200906_Migracao")]
+    partial class Migracao
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

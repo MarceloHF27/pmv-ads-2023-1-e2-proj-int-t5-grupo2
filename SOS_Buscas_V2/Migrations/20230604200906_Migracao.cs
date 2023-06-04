@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SOS_Buscas_V2.Migrations
 {
     /// <inheritdoc />
-    public partial class Criandotabelas : Migration
+    public partial class Migracao : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -38,9 +38,10 @@ namespace SOS_Buscas_V2.Migrations
                     Roupa = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     Estilocabelo = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     CorPele = table.Column<string>(type: "varchar(15)", nullable: false),
-                    Altura = table.Column<decimal>(type: "decimal(2,2)", nullable: true),
+                    Altura = table.Column<string>(type: "varchar(5)", nullable: true),
                     Tatoagem = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     Observacoes = table.Column<string>(type: "nvarchar(250)", nullable: true),
+                    CaminhoImagem = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     DataHoraDesaparecimento = table.Column<DateTime>(type: "DateTime", nullable: false),
                     EmailUsuario = table.Column<string>(type: "varchar(45)", nullable: false)
                 },

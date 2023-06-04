@@ -1,18 +1,114 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.home-btn {
+    background-color: #1e4873;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+    .home-btn:hover {
+        background-color: #fff;
+        color: #1e4873;
+    }
+
+.home-form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #1e4873;
+}
+
+.home-text-center {
+    text-align: center;
+}
+
+.home-titulo-secao {
+    color: #1e4873;
+}
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.home-card {
+    margin-top: 40px;
+    width: calc(20.33%);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex: 0 0 auto;
+}
+
+.home-card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.home-card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-card-text {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.home-card a {
+    color: #fff;
+    background-color: #1e4873;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+    .home-card a:hover {
+        background-color: #fff;
+        color: #1e4873;
+    }
+
+.home-botoes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    .home-botoes form {
+        margin-right: 10px;
+    }
+
+.home-filtro {
+    display: flex;
+    justify-content: center;
+}
+
+.home-pessoas-desaparecidas {
+    padding-top: 25px;
 }
