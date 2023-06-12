@@ -1,0 +1,56 @@
+﻿@model DesaparecidoModel
+
+<div>
+
+    <style>
+        .form-control {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        input[type="submit"].btn-primary {
+            width: auto;
+        }
+
+            input[type="submit"].btn-primary:hover {
+                background-color: #0069d9;
+            }
+    </style>
+
+    <form asp-controller="Desaparecido" asp-action="Cadastrar"  method="post" enctype="multipart/form-data">
+        <input name="NomeCompleto" class="form-control" type="text" asp-for="NomeCompleto" placeholder="Nome" aria-label="default input example">
+        <input name="DataHoraDesaparecimento" class="form-control" type="datetime-local" asp-for="DataHoraDesaparecimento" placeholder="DataHoraDesaparecimento" aria-label="default input example">
+        <input name="CorPele" class="form-control" type="text" asp-for="CorPele" placeholder="CorPele" aria-label="default input example">
+        <input name="EstiloCorCabelo" class="form-control" type="text" asp-for="EstiloCorCabelo" placeholder="EstiloCorCabelo" aria-label="default input example">
+        <input name="Vestimenta" class="form-control" type="text" asp-for="Vestimenta" placeholder="Roupa" aria-label="default input example">
+        <input name="Altura" class="form-control" type="text" asp-for="Altura" placeholder="Altura" aria-label="default input example">
+        <input name="Tatoagem" class="form-control" type="text" asp-for="Tatoagem" placeholder="Tatuagem" aria-label="default input example">
+        <input name="Observacoes" class="form-control" type="text" asp-for="Observacoes" placeholder="Observacoes" aria-label="default input example">
+
+        <input type="file" name="foto"  >
+
+        <input type="submit" class="btn btn-primary" >
+    </form>
+</div>

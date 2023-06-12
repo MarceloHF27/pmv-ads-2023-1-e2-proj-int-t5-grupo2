@@ -1,0 +1,35 @@
+﻿@model List<DesaparecidoModel>
+
+
+<body>
+    <table class="table" id="table-desaparecidos">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">CorPele</th>
+                <th scope="col">editar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                foreach(DesaparecidoModel desaparecido in Model)
+                {
+                    <tr>
+                        <th scope="row">@desaparecido.Id</th>
+                        <td>@desaparecido.NomeCompleto</td>
+                        <td>@desaparecido.CorPele</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary" asp-controller="Desaparecido" asp-action="EditarPage" asp-route-id="@desaparecido.Id">Editar</a>
+                                <a role="button" class="btn btn-primary" asp-controller="Desaparecido" asp-action="ApagarPage" asp-route-id="@desaparecido.Id">Middle</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</body>

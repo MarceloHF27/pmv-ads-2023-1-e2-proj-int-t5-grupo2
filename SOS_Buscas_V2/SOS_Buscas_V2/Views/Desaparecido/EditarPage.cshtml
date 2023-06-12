@@ -1,0 +1,19 @@
+﻿@model DesaparecidoModel
+
+<div>
+    <form asp-controller="Desaparecido" asp-route-id="@Model.Id" asp-action="Editar" method="post">
+        
+        <input name="NomeCompleto" class="form-control" type="text" asp-for="NomeCompleto" placeholder="Nome" aria-label="default input example">
+        <input name="DataHoraDesaparecimento" class="form-control" type="datetime-local" asp-for="DataHoraDesaparecimento" placeholder="DataHoraDesaparecimento" aria-label="default input example">
+        <input name="CorPele" class="form-control" type="text" asp-for="CorPele" placeholder="CorPele" aria-label="default input example">
+        <input name="EstiloCorCabelo" class="form-control" type="text" asp-for="EstiloCorCabelo" placeholder="EstiloCorCabelo" aria-label="default input example">
+        <input name="Vestimenta" class="form-control" type="text" asp-for="Vestimenta" placeholder="Roupa" aria-label="default input example">
+        <input name="Altura" class="form-control" type="text" asp-for="Altura" placeholder="Altura" aria-label="default input example">
+        <input name="Tatoagem" class="form-control" type="text" asp-for="Tatoagem" placeholder="Tatuagem" aria-label="default input example">
+        <input name="Observacoes" class="form-control" type="text" asp-for="Observacoes" placeholder="Observacoes" aria-label="default input example">
+
+        
+
+        <input type="submit" class="btn btn-primary">
+    </form>
+</div>
