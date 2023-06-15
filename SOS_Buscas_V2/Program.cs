@@ -14,7 +14,7 @@ builder.Services.AddControllersWithViews();
 //----------------------------------------------------------------------------------------------------------------
 //Conexão com o banco
 
-string conection = builder.Configuration.GetConnectionString("SOS_BuscasDB");
+string conection = builder.Configuration.GetConnectionString("LocalDB");
 
 builder.Services.AddDbContextPool<BancoContext>(options => options.UseSqlServer(conection));
 
@@ -26,6 +26,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IUsuario, UsuarioRepositorio>();
 builder.Services.AddScoped<ISessao, SessaoRepositorio>();
 builder.Services.AddScoped<IDesaparecido, DesaparecidoRepositorio>();
+
 
 builder.Services.AddSession(o =>
         {

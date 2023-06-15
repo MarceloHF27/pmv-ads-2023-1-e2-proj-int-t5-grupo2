@@ -1,16 +1,28 @@
 ﻿@model DesaparecidoModel
 
 <div>
-    <form asp-controller="Desaparecido" asp-action="Editar" method="post">
-        <input name="Nome" class="form-control" type="text" asp-for="Nome" placeholder="Nome" aria-label="default input example">
-        <input name="Sobrenome" class="form-control" type="text" asp-for="Sobrenome" placeholder="Sobrenome" aria-label="default input example">
+    <form asp-controller="Desaparecido" asp-route-id="@Model.Id" asp-action="Editar" method="post">
+        <input name="NomeCompleto" class="form-control" type="text" asp-for="NomeCompleto" placeholder="Nome" aria-label="default input example">
+        <input name="CPF" class="form-control" type="text" asp-for="CPF" placeholder="CPF" aria-label="default input example">
+
         <input name="DataHoraDesaparecimento" class="form-control" type="datetime-local" asp-for="DataHoraDesaparecimento" placeholder="DataHoraDesaparecimento" aria-label="default input example">
         <input name="CorPele" class="form-control" type="text" asp-for="CorPele" placeholder="CorPele" aria-label="default input example">
-        <input name="Cabelo" class="form-control" type="text" asp-for="Estilocabelo" placeholder="EstiloCabelo" aria-label="default input example">
-        <input name="Roupa" class="form-control" type="text" asp-for="Roupa" placeholder="Roupa" aria-label="default input example">
+        <input name="EstiloCorCabelo" class="form-control" type="text" asp-for="EstiloCorCabelo" placeholder="EstiloCorCabelo" aria-label="default input example">
+        <input name="Vestimenta" class="form-control" type="text" asp-for="Vestimenta" placeholder="Roupa" aria-label="default input example">
         <input name="Altura" class="form-control" type="text" asp-for="Altura" placeholder="Altura" aria-label="default input example">
-        <input name="Tatuagem" class="form-control" type="text" asp-for="Tatoagem" placeholder="Tatuagem" aria-label="default input example">
+        <input name="Tatuagem" class="form-control" type="text" asp-for="Tatuagem" placeholder="Tatuagem" aria-label="default input example">
         <input name="Observacoes" class="form-control" type="text" asp-for="Observacoes" placeholder="Observacoes" aria-label="default input example">
+        <input name="Medicacoes" class="form-control" type="text" asp-for="Medicacoes" placeholder="Medicacoes" aria-label="default input example">
+        <input name="Doencas" class="form-control" type="text" asp-for="Doencas" placeholder="Doencas" aria-label="default input example">
+        <input name="Transtornos" class="form-control" type="text" asp-for="Transtornos" placeholder="Transtornos" aria-label="default input example">
+        <input name="NomeFamiliar" class="form-control" type="text" asp-for="NomeFamiliar" placeholder="NomeFamiliar" aria-label="default input example">
+        <input name="ContatoFamiliar" class="form-control" type="text" asp-for="ContatoFamiliar" placeholder="ContatoFamiliar" aria-label="default input example">
+        <input name="GrauParentesco" class="form-control" type="text" asp-for="GrauParentesco" placeholder="GrauParentesco" aria-label="default input example">
+        <input name="NomeFamiliar2" class="form-control" type="text" asp-for="NomeFamiliar2" placeholder="NomeFamiliar2" aria-label="default input example">
+        <input name="ContatoFamiliar2" class="form-control" type="text" asp-for="ContatoFamiliar2" placeholder="ContatoFamiliar2" aria-label="default input example">
+        <input name="GrauParentesco2" class="form-control" type="text" asp-for="GrauParentesco2" placeholder="GrauParentesco2" aria-label="default input example">
+        <input name="Endereco" class="form-control" type="text" asp-for="Endereco" placeholder="Endereco" aria-label="default input example">
+        <input name="Avistamento" class="form-control" type="text" asp-for="Avistamento" placeholder="Avistamento" aria-label="default input example">
 
         
 

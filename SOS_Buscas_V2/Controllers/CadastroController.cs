@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SOS_Buscas_V2.Data;
+using SOS_Buscas_V2.Helper;
 using SOS_Buscas_V2.Models;
 using SOS_Buscas_V2.Repositorio;
 
@@ -11,9 +12,11 @@ namespace SOS_Buscas_V2.Controllers
         //----------------------------------------------------------------------
         //Construtor para a injeção de dependencias da interface IUsuario
         private readonly IUsuario _usuario;
-        public CadastroController(IUsuario usuario)
+        private readonly ISessao _sessao;
+        public CadastroController(IUsuario usuario, ISessao sessao)
         {
             _usuario = usuario;
+            _sessao = sessao;
         }
 
         //----------------------------------------------------------------------
@@ -46,5 +49,17 @@ namespace SOS_Buscas_V2.Controllers
             return Json(new { Msg = "usuario criado com sucesso" });
             
         }
+
+        public IActionResult Perfil()
+        {
+            UsuarioModel usuarioSessao = _sessao.BuscarSessao();
+            if(usuarioSessao != null)
+            {
+                UsuarioModel usuario = _usuario.ListarPorEmail(usuarioSessao.Email);
+                return View(usuario);
+            }
+            return Json(new { Msg = "erro" }); 
+        }
+
     }
 }

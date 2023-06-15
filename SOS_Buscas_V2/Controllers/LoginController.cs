@@ -44,5 +44,12 @@ namespace SOS_Buscas_V2.Controllers
 
             return Json(new { Msg = "erro"});
         }
+
+        public IActionResult Logout()
+        {
+            if (_sessao.BuscarSessao() == null) return Json(new { Msg = "Você não fez login" });
+            _sessao.ApagarSessao();
+            return Json(new { Msg = "sessão finalizada" });
+        }
     }
 }

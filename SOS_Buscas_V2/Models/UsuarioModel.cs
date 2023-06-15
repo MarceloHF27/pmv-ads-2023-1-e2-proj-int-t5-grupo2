@@ -11,7 +11,7 @@ namespace SOS_Buscas_V2.Models
         //------------------------------------------------------------------
         //Modelo para a tabela 
 
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         
 
         [Column(TypeName = "varchar(11)")]
@@ -36,6 +36,12 @@ namespace SOS_Buscas_V2.Models
 
         [Column(TypeName = "DateTime")]
         public DateTime Nascimento { get; set; }
+
+        [Column(TypeName = "varchar(100)")]
+        public string Endereco { get; set; }
+
+        [Column(TypeName = "varchar(45)")]
+        public string Contato { get; set; }
 
         //------------------------------------------------------------------
         //Função para verificar a senha

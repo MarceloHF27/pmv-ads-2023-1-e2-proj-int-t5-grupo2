@@ -7,6 +7,8 @@ namespace SOS_Buscas_V2.Repositorio
         //------------------------------------------------------------------
         //Contratos do CRUD Usuários
 
+        UsuarioModel ListarPorEmail(string email);
+
         UsuarioModel VerificarLogin(string email);
         
         List<UsuarioModel> Listar();

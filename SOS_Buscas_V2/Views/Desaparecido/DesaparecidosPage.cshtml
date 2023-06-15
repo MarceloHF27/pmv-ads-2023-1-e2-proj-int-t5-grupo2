@@ -1,17 +1,15 @@
 ﻿@model List<DesaparecidoModel>
 
 
-
-
 <body>
     <table class="table" id="table-desaparecidos">
         <thead>
             <tr>
-                <th scope="col">id</th>
+                <th scope="col">Foto</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Sobrenome</th>
-                <th scope="col">CorPele</th>
-                <th scope="col">editar</th>
+                <th scope="col">Data em que desapareceu</th>
+                <th scope="col">Visto por ultimo</th>
+                <th scope="col"></th>
             </tr>
         </thead>
 
@@ -21,11 +19,17 @@
                 foreach(DesaparecidoModel desaparecido in Model)
                 {
                     <tr>
-                        <th scope="row">@desaparecido.Id</th>
-                        <td>@desaparecido.Nome</td>
-                        <td>@desaparecido.Sobrenome</td>
-                        <td>@desaparecido.CorPele</td>
-                        <td><a class="btn-primary" role="button" asp-router-Id="@desaparecido.Id" asp-controller="Desaparecido" asp-action="EditarPage">Editar</a></td>
+                        <th scope="row">@*<img src="~/Imagens/@desaparecido.CaminhoImagem" alt="Foto da pessoa desaparecida">*@</th>
+                        <td>@desaparecido.NomeCompleto</td>
+                        <td>@desaparecido.DataHoraDesaparecimento</td>
+                        <td>@desaparecido.Avistamento</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary" asp-controller="Desaparecido" asp-action="EditarPage" asp-route-id="@desaparecido.Id">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-controller="Desaparecido" asp-action="ApagarPage" asp-route-id="@desaparecido.Id">Apagar</a>
+                                <a role="button" class="btn btn-success" asp-controller="Home" asp-action="PaginaDesaparecido" asp-route-id="@desaparecido.Id">Ver Mais</a>
+                            </div>
+                        </td>
                     </tr>
                 }
             }

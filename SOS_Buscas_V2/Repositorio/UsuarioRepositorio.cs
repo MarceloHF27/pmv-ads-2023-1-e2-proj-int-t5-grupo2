@@ -29,6 +29,11 @@ namespace SOS_Buscas_V2.Repositorio
             return _bancoContext.Usuarios.ToList();
         }
 
+        public UsuarioModel ListarPorEmail(string email)
+        {
+            return _bancoContext.Usuarios.FirstOrDefault(x => x.Email.ToUpper() == email.ToUpper());
+        }
+
         //------------------------------------------------------------------
         //Lista os dados da tabela Usuarios presente Banco de dados que possuem o Email informado a função
         public UsuarioModel VerificarLogin(string email)
