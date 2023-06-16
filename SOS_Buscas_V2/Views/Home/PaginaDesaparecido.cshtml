@@ -25,6 +25,13 @@
         <p>@Model.Observacoes</p>
         <p>@Model.EmailUsuario</p>
 
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:7003/Home/PaginaDesaparecido/@Model.Id">
+            Compartilhar no facebook
+        </a>
+    <a href="https://api.whatsapp.com/send?text=https://localhost:7003/Home/PaginaDesaparecido/@Model.Id">
+            Compartilhar no WPP
+        </a>
+
         <form asp-controller="Desaparecido" asp-route-id="@Model.Id" asp-action="AlterarAvistamentoPage" method="post">
             <input type="submit" class="btn btn-primary">
         </form>
