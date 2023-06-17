@@ -72,7 +72,7 @@ namespace SOS_Buscas_V2.Controllers
 
                 if (desaparecidoDB != null)
                 {
-                    return Json(new { Msg = "correto" });
+                    return View("Index");
                 }
                 return Json(new { Msg = "erro, esse desaparecido não existe" });
             }
@@ -190,7 +190,7 @@ namespace SOS_Buscas_V2.Controllers
 
                 if (desaparecidoDB == true)
                 {
-                    return Json(new { Msg = "Apagado com sucesso" });
+                    return View("Index");
                 }
                 return Json(new { Msg = "erro, esse desaparecido não existe" });
             }
@@ -213,7 +213,7 @@ namespace SOS_Buscas_V2.Controllers
 
             if (desaparecidoDB != null)
             {
-                return Json(new { Msg = "ecereto" });
+                return View("Index");
             }
             return Json(new { Msg = "erro" });
         }

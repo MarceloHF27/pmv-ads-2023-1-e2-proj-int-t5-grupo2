@@ -43,11 +43,15 @@ namespace SOS_Buscas_V2.Controllers
                     }
                 }
                 _usuario.Criar(usuario); //Cria o usuário no banco
-                return Json(new { Msg = "usuario criado com sucesso" });
+
+                //Aqui precisamos de uma mensagem falando que o usuario foi logado
+                return View("Index");
             }
             _usuario.Criar(usuario);   //Cria o usuário no banco
-            return Json(new { Msg = "usuario criado com sucesso" });
-            
+
+            //Aqui precisamos de uma mensagem falando que o usuario foi logado
+            return View("Index");
+
         }
 
         public IActionResult Perfil()
@@ -58,7 +62,7 @@ namespace SOS_Buscas_V2.Controllers
                 UsuarioModel usuario = _usuario.ListarPorEmail(usuarioSessao.Email);
                 return View(usuario);
             }
-            return Json(new { Msg = "erro" }); 
+            return View("Index"); 
         }
 
     }

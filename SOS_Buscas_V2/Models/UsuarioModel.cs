@@ -11,7 +11,7 @@ namespace SOS_Buscas_V2.Models
         //------------------------------------------------------------------
         //Modelo para a tabela 
 
-        public int Id { get; set; }
+        
         
 
         [Column(TypeName = "varchar(11)")]
