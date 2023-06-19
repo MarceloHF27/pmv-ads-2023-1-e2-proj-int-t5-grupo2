@@ -1,0 +1,52 @@
+﻿@model List<DesaparecidoModel>
+
+
+<div class="home-text-center">
+    <div class="home-botoes">
+        <form asp-controller="Desaparecido" asp-action="CadastrarPage">
+            <button type="submit" class="home-btn btn-primary">Cadastrar Desaparecido</button>
+        </form>
+        <form asp-area="" asp-controller="Home" asp-action="Precaucoes">
+            <button type="submit" class="home-btn btn-primary">Precauções</button>
+        </form>
+    </div>
+    <div class="home-filtro">
+        <form asp-controller="Desaparecido" asp-action="DesaparecidosPage">
+            <button type="submit" class="home-btn btn-primary">Buscar</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <section class="home-pessoas-desaparecidas">
+        <div class="home-container">
+            <h2 class="home-titulo-secao">Desaparecidos</h2>
+            @if (Model != null)
+            {
+                
+                int count = 0;
+                @foreach (DesaparecidoModel desaparecido in Model)
+                {
+                    
+                    if (count >= 3)
+                    {
+                        break;
+                    }
+
+
+                    <div class="home-card">
+                        <img src="~/Imagens/@desaparecido.CaminhoImagem" class="home-card-img-top" alt="Foto da pessoa desaparecida">
+                        <div class="home-card-body">
+                            <h5 class="home-card-title">@desaparecido.NomeCompleto</h5>
+                            <p class="home-card-text">@desaparecido.Observacoes</p>
+                            <form asp-controller="Home" asp-route-id="@desaparecido.Id" asp-action="PaginaDesaparecido" method="post">
+                                <input name="Ver Mais" type="submit" class="home-btn btn-primary"Ver mais...>
+                            </form>
+                        </div>
+                    </div>
+                    count++;
+                }
+            }
+        </div>
+    </section>
+</div>

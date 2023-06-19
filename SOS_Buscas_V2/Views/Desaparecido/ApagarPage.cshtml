@@ -1,0 +1,13 @@
+﻿@model DesaparecidoModel
+
+<div>
+    <p>Deseja excluir o desaparecido (@Model.NomeCompleto)</p>
+    
+        <div class="btn-group" role="group">
+            <a role="button" class="btn btn-primary" asp-controller="Desaparecido" asp-route-id="@Model.Id" asp-action="Apagar">Apagar</a>
+            <a role="button" class="btn btn-primary" asp-controller="Desaparecido" asp-action="Index">Cancelar</a>
+        </div>
+    
+    
+   
+</div>

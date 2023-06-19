@@ -1,0 +1,39 @@
+﻿@model DesaparecidoModel
+
+@if(Model != null)
+{
+        @*<img src="~/Imagens/@Model.CaminhoImagem" alt="Foto da pessoa desaparecida">*@
+        <p>@Model.CPF</p>
+        <p>@Model.NomeCompleto</p>
+        <p>@Model.EstiloCorCabelo</p>
+        <p>@Model.CorPele</p>
+        <p>@Model.Altura</p>
+        <p>@Model.Tatuagem</p>
+        <p>@Model.Vestimenta</p>
+        <p>@Model.DataHoraDesaparecimento</p>
+        <p>@Model.Medicacoes</p>
+        <p>@Model.Doencas</p>
+        <p>@Model.Transtornos</p>
+        <p>@Model.NomeFamiliar</p>
+        <p>@Model.ContatoFamiliar</p>
+        <p>@Model.GrauParentesco</p>
+        <p>@Model.NomeFamiliar2</p>
+        <p>@Model.ContatoFamiliar2</p>
+        <p>@Model.GrauParentesco2</p>
+        <p>@Model.Endereco</p>
+        <p>@Model.Avistamento</p>
+        <p>@Model.Observacoes</p>
+        <p>@Model.EmailUsuario</p>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:7003/Home/PaginaDesaparecido/@Model.Id">
+            Compartilhar no facebook
+        </a>
+    <a href="https://api.whatsapp.com/send?text=https://localhost:7003/Home/PaginaDesaparecido/@Model.Id">
+            Compartilhar no WPP
+        </a>
+
+        <form asp-controller="Desaparecido" asp-route-id="@Model.Id" asp-action="AlterarAvistamentoPage" method="post">
+            <input type="submit" class="btn btn-primary">
+        </form>
+    
+}
