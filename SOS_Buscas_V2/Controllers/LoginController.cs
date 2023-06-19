@@ -21,6 +21,7 @@ namespace SOS_Buscas_V2.Controllers
         //Metodo para chamar a pagina de login com a verificação para caso o usuário já esteja logado
         public IActionResult Index()
         {
+            if (_sessao.BuscarSessao() != null) return Json(new { Msg = "Você já esta logadoo" });
             return View();
         }
 
@@ -34,24 +35,21 @@ namespace SOS_Buscas_V2.Controllers
             {
                 _sessao.CriarSessao(usuario);
 
+               
 
-                //Aqui precisamos de uma mensagem falando que o usuario foi logado
-                return View("Index");
+                return Json(new { Msg = "Logado com sucesso"}); 
                     
                     
             }
 
-            //Aqui precisamos de uma mensagem falando que ocorreu um erro no Login
-            return View("Index");
+            return Json(new { Msg = "erro"});
         }
 
         public IActionResult Logout()
         {
             if (_sessao.BuscarSessao() == null) return Json(new { Msg = "Você não fez login" });
             _sessao.ApagarSessao();
-
-            //Aqui precisamos de uma mensagem informando que o a sessão do usuario foi finalizada
-            return View("Index");
+            return Json(new { Msg = "sessão finalizada" });
         }
     }
 }

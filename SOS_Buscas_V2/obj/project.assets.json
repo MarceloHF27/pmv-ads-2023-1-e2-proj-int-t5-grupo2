@@ -3555,19 +3555,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Samuel - Estudos\\.nuget\\packages\\": {}
+    "C:\\Users\\leona\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samuel - Estudos\\Downloads\\SOS_Buscas_V2\\SOS_Buscas_V2\\SOS_Buscas_V2\\SOS_Buscas_V2.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Área de Trabalho\\Final\\SOS_Buscas_V2\\SOS_Buscas_V2.csproj",
       "projectName": "SOS_Buscas_V2",
-      "projectPath": "C:\\Users\\Samuel - Estudos\\Downloads\\SOS_Buscas_V2\\SOS_Buscas_V2\\SOS_Buscas_V2\\SOS_Buscas_V2.csproj",
-      "packagesPath": "C:\\Users\\Samuel - Estudos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samuel - Estudos\\Downloads\\SOS_Buscas_V2\\SOS_Buscas_V2\\SOS_Buscas_V2\\obj\\",
+      "projectPath": "C:\\Users\\leona\\OneDrive\\Área de Trabalho\\Final\\SOS_Buscas_V2\\SOS_Buscas_V2.csproj",
+      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leona\\OneDrive\\Área de Trabalho\\Final\\SOS_Buscas_V2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Samuel - Estudos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
